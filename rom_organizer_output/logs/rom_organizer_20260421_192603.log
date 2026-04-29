@@ -1,5 +1,0 @@
-2026-04-21 15:26:03 [INFO] rom_organizer: Log file: rom_organizer_output/logs/rom_organizer_20260421_192603.log
-2026-04-21 15:26:03 [INFO] rom_organizer: ROM Organizer starting — command: organize
-2026-04-21 15:26:04 [INFO] rom_organizer: Proposed: 11 renames, 2 quarantines, 27 moves
-2026-04-21 15:26:04 [INFO] rom_organizer: Results: 11 renames, 2 quarantines, 27 moves, 0 skipped, 0 errors
-2026-04-21 15:26:04 [INFO] rom_organizer: ROM Organizer finished.
