@@ -1,0 +1,32 @@
+========================================================================
+  ROM ORGANIZER — SCAN REPORT
+========================================================================
+
+── SUMMARY ──────────────────────────────────────────────────────
+  Total ROM files scanned:       27
+  Unique SHA-256 hashes:         25
+  Exact duplicate groups:        2
+  Possible duplicate groups:     1
+  Pending proposed actions:      0
+
+── EXACT DUPLICATES (same SHA-256) ─────────────────────────────
+  Group 1 — Hash: 3daf588be5a9941d...
+      /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen (524,288 bytes)
+    ★ /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen (524,288 bytes)
+
+  Group 2 — Hash: fcf711ef67e3eb1d...
+    ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
+      /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
+
+── POSSIBLE DUPLICATES (similar name + same size) ──────────────
+  Group 3:
+    ★ /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
+      /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
+
+── FILES NOT MATCHING NAMING CONVENTIONS ───────────────────────
+  • /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes
+  • /tmp/test_roms/NES/___game___(USA)___[b1].nes
+
+========================================================================
+  END OF REPORT
+========================================================================

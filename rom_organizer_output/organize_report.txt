@@ -1,0 +1,115 @@
+========================================================================
+  ROM ORGANIZER — SCAN REPORT
+========================================================================
+
+── SUMMARY ──────────────────────────────────────────────────────
+  Total ROM files scanned:       27
+  Unique SHA-256 hashes:         25
+  Exact duplicate groups:        2
+  Possible duplicate groups:     1
+  Pending proposed actions:      38
+
+── EXACT DUPLICATES (same SHA-256) ─────────────────────────────
+  Group 1 — Hash: 3daf588be5a9941d...
+      /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen (524,288 bytes)
+    ★ /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen (524,288 bytes)
+
+  Group 2 — Hash: fcf711ef67e3eb1d...
+    ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
+      /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
+
+── POSSIBLE DUPLICATES (similar name + same size) ──────────────
+  Group 3:
+    ★ /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
+      /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
+
+── FILES NOT MATCHING NAMING CONVENTIONS ───────────────────────
+  • /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes
+  • /tmp/test_roms/NES/___game___(USA)___[b1].nes
+
+── PROPOSED ACTIONS ─────────────────────────────────────────────
+  Renames:     9
+  Quarantines: 2
+  Moves:       27
+
+── PROPOSED ACTION DETAILS ─────────────────────────────────────
+  [RENAME] /tmp/test_roms/PS1/Castlevania - Symphony of the Night (U).bin → /tmp/test_roms/PS1/Castlevania Symphony of the Night (U).bin
+    Reason: Normalize filename: Castlevania - Symphony of the Night (U).bin → Castlevania Symphony of the Night (U).bin
+  [RENAME] /tmp/test_roms/Gameboy/ROM with spaces   and   stuff   (E).gb → /tmp/test_roms/Gameboy/ROM with spaces and stuff (E).gb
+    Reason: Normalize filename: ROM with spaces   and   stuff   (E).gb → ROM with spaces and stuff (E).gb
+  [RENAME] /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename:   Super  Mario  Bros  (U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/Super_Mario_Bros_(U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: Super_Mario_Bros_(U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/weird.rom.tar.nes → /tmp/test_roms/NES/Weird.Rom.Tar.nes
+    Reason: Normalize filename: weird.rom.tar.nes → Weird.Rom.Tar.nes
+  [RENAME] /tmp/test_roms/NES/SUPER MARIO BROS (U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: SUPER MARIO BROS (U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/super mario bros (u).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: super mario bros (u).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/___game___(USA)___[b1].nes → /tmp/test_roms/NES/game (USA) [b1].nes
+    Reason: Normalize filename: ___game___(USA)___[b1].nes → game (USA) [b1].nes
+  [RENAME] /tmp/test_roms/GBA/Game+With+Plus+Signs (J).gba → /tmp/test_roms/GBA/Game With Plus Signs (J).gba
+    Reason: Normalize filename: Game+With+Plus+Signs (J).gba → Game With Plus Signs (J).gba
+  [QUARANTINE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen → rom_organizer_output/quarantine/Sonic the Hedgehog (U) [!]_1.gen
+    Reason: Exact duplicate of 3daf588be5a9941d...
+  [QUARANTINE] /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes → rom_organizer_output/quarantine/Super Mario Bros. (U) [!]_1.nes
+    Reason: Exact duplicate of fcf711ef67e3eb1d...
+  [MOVE] /tmp/test_roms/PS1/Final Fantasy VII (U) (Disc 1).bin → rom_organizer_output/ps1/Final Fantasy VII (U) (Disc 1).bin
+    Reason: Move to ps1 folder
+  [MOVE] /tmp/test_roms/PS1/Castlevania - Symphony of the Night (U).bin → rom_organizer_output/ps1/Castlevania - Symphony of the Night (U).bin
+    Reason: Move to ps1 folder
+  [MOVE] /tmp/test_roms/SNES/A Link to the Past (U) (V1.1) [!].sfc → rom_organizer_output/snes/A Link to the Past (U) (V1.1) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Chrono Trigger (U) [!].sfc → rom_organizer_output/snes/Chrono Trigger (U) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Zelda 3 (U).sfc → rom_organizer_output/snes/Zelda 3 (U).sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Super Metroid (U) [!].sfc → rom_organizer_output/snes/Super Metroid (U) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/Gameboy/Pokémon Red (U) [S].gb → rom_organizer_output/gameboy/Pokémon Red (U) [S].gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/Gameboy/Pokémon Blue (U) [S].gb → rom_organizer_output/gameboy/Pokémon Blue (U) [S].gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/Gameboy/ROM with spaces   and   stuff   (E).gb → rom_organizer_output/gameboy/ROM with spaces   and   stuff   (E).gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/NES/Metroid (U) [!].nes → rom_organizer_output/nes/Metroid (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes → rom_organizer_output/nes/  Super  Mario  Bros  (U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (J) [!].nes → rom_organizer_output/nes/Super Mario Bros. (J) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super_Mario_Bros_(U).nes → rom_organizer_output/nes/Super_Mario_Bros_(U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/weird.rom.tar.nes → rom_organizer_output/nes/weird.rom.tar.nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/SUPER MARIO BROS (U).nes → rom_organizer_output/nes/SUPER MARIO BROS (U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Ultimate Mega Collection All Stars World Championship Edition Plus Alpha (U) [!].nes → rom_organizer_output/nes/Super Ultimate Mega Collection All Stars World Championship Edition Plus Alpha (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/The Legend of Zelda (U) [!].nes → rom_organizer_output/nes/The Legend of Zelda (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/super mario bros (u).nes → rom_organizer_output/nes/super mario bros (u).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/___game___(USA)___[b1].nes → rom_organizer_output/nes/___game___(USA)___[b1].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes → rom_organizer_output/nes/Super Mario Bros. (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes → rom_organizer_output/nes/Super Mario Bros. (U) [!]_1.nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/N64/Super Mario 64 (U) [!].z64 → rom_organizer_output/n64/Super Mario 64 (U) [!].z64
+    Reason: Move to n64 folder
+  [MOVE] /tmp/test_roms/N64/Mario Kart 64 (U) [!].z64 → rom_organizer_output/n64/Mario Kart 64 (U) [!].z64
+    Reason: Move to n64 folder
+  [MOVE] /tmp/test_roms/GBA/Game+With+Plus+Signs (J).gba → rom_organizer_output/gba/Game+With+Plus+Signs (J).gba
+    Reason: Move to gba folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (E) [!].gen → rom_organizer_output/genesis/Sonic the Hedgehog (E) [!].gen
+    Reason: Move to genesis folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen → rom_organizer_output/genesis/Sonic the Hedgehog (U) [!]_1.gen
+    Reason: Move to genesis folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen → rom_organizer_output/genesis/Sonic the Hedgehog (U) [!].gen
+    Reason: Move to genesis folder
+
+========================================================================
+  END OF REPORT
+========================================================================

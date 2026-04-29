@@ -1,0 +1,15 @@
+2026-04-21 15:28:46 [INFO] rom_organizer: Log file: rom_organizer_output/logs/rom_organizer_20260421_192846.log
+2026-04-21 15:28:46 [INFO] rom_organizer: ROM Organizer starting — command: normalize
+2026-04-21 15:28:46 [INFO] rom_organizer: === DRY RUN — no files will be renamed ===
+2026-04-21 15:28:46 [INFO] rom_organizer: Normalization: 9 changed, 18 unchanged, 0 errors
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: Castlevania - Symphony of the Night (U).bin → Castlevania Symphony of the Night (U).bin
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: ROM with spaces   and   stuff   (E).gb → ROM with spaces and stuff (E).gb
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename:   Super  Mario  Bros  (U).nes → Super Mario Bros (U).nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: Super_Mario_Bros_(U).nes → Super Mario Bros (U).nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: weird.rom.tar.nes → Weird.Rom.Tar.nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: SUPER MARIO BROS (U).nes → Super Mario Bros (U).nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: super mario bros (u).nes → Super Mario Bros (U).nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: ___game___(USA)___[b1].nes → game (USA) [b1].nes
+2026-04-21 15:28:46 [INFO] rom_organizer: [DRY RUN] Would rename: Game+With+Plus+Signs (J).gba → Game With Plus Signs (J).gba
+2026-04-21 15:28:46 [INFO] rom_organizer: === DRY RUN COMPLETE — no files were renamed ===
+2026-04-21 15:28:46 [INFO] rom_organizer: ROM Organizer finished.

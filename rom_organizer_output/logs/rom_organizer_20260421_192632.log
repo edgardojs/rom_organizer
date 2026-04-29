@@ -1,0 +1,5 @@
+2026-04-21 15:26:32 [INFO] rom_organizer: Log file: rom_organizer_output/logs/rom_organizer_20260421_192632.log
+2026-04-21 15:26:32 [INFO] rom_organizer: ROM Organizer starting — command: scan
+2026-04-21 15:26:38 [INFO] rom_organizer: Hashing: 27 done, 0 skipped, 0 errors
+2026-04-21 15:26:38 [INFO] rom_organizer: Duplicates: 2 exact groups, 1 possible groups
+2026-04-21 15:26:38 [INFO] rom_organizer: ROM Organizer finished.
