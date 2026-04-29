@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS files (
     crc32           TEXT,
     scan_timestamp  TEXT NOT NULL,
     status          TEXT NOT NULL DEFAULT 'scanned',
-    -- status values: scanned | normalized | organized | quarantined | verified
+    -- status values: scanned | normalized | organized | quarantined | verified | scan_error | hash_error | corrupted
     notes           TEXT,
     dat_game_name   TEXT,
     dat_description TEXT,
@@ -326,7 +326,13 @@ class Database:
             (path, original_name, normalized_name, extension, size, sha256, scan_ts, status, notes),
         )
         self._commit_or_defer()
-        return cursor.lastrowid  # type: ignore[return-value]
+
+        # lastrowid is only correct for INSERT; on CONFLICT UPDATE it may
+        # point to the wrong row. Look up the actual ID by unique path.
+        row = self.conn.execute(
+            "SELECT id FROM files WHERE path = ?", (path,)
+        ).fetchone()
+        return row["id"]
 
     def update_file_hash(self, file_id: int, sha256: str) -> None:
         """Set the SHA-256 hash for a file and insert into the hashes table.
@@ -570,6 +576,17 @@ class Database:
         )
         self._commit_or_defer()
 
+    def get_error_files(self) -> list[sqlite3.Row]:
+        """Return all files with error statuses (scan_error or hash_error).
+
+        Returns:
+            List of file rows with error status, ordered by path.
+        """
+        return self.conn.execute(
+            "SELECT id, path, original_name, status, notes FROM files "
+            "WHERE status IN ('scan_error', 'hash_error') ORDER BY path"
+        ).fetchall()
+
     def get_stats(self) -> dict[str, int]:
         """Return summary statistics."""
         total = self.conn.execute("SELECT COUNT(*) FROM files").fetchone()[0]
@@ -591,6 +608,12 @@ class Database:
         archives = self.conn.execute(
             "SELECT COUNT(*) FROM files WHERE is_archive = 1"
         ).fetchone()[0]
+        scan_errors = self.conn.execute(
+            "SELECT COUNT(*) FROM files WHERE status = 'scan_error'"
+        ).fetchone()[0]
+        hash_errors = self.conn.execute(
+            "SELECT COUNT(*) FROM files WHERE status = 'hash_error'"
+        ).fetchone()[0]
         return {
             "total_files": total,
             "unique_hashes": unique_hashes,
@@ -599,6 +622,8 @@ class Database:
             "pending_actions": pending_actions,
             "identified_files": identified,
             "archive_files": archives,
+            "scan_errors": scan_errors,
+            "hash_errors": hash_errors,
         }
 
     # ── Archive entry operations ──────────────────────────────────────
@@ -699,7 +724,7 @@ class Database:
         Returns:
             The row ID of the DAT file.
         """
-        cursor = self.conn.execute(
+        self.conn.execute(
             """INSERT INTO dat_files (filename, name, description, category, version, loaded_at)
                VALUES (?, ?, ?, ?, ?, ?)
                ON CONFLICT(filename) DO UPDATE SET
@@ -710,7 +735,12 @@ class Database:
              datetime.now(timezone.utc).isoformat()),
         )
         self._commit_or_defer()
-        return cursor.lastrowid  # type: ignore[return-value]
+
+        # lastrowid is unreliable after ON CONFLICT UPDATE; look up by unique filename.
+        row = self.conn.execute(
+            "SELECT id FROM dat_files WHERE filename = ?", (filename,)
+        ).fetchone()
+        return row["id"]
 
     def add_dat_game(
         self,

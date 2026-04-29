@@ -285,11 +285,14 @@ def cmd_load_dats(args: argparse.Namespace, config: Config, db: Database) -> Non
 
 def cmd_identify(args: argparse.Namespace, config: Config, db: Database) -> None:
     """Execute the 'identify' subcommand: match scanned files against DAT entries."""
+    from progress import ProgressBar
+
     rows = db.get_all_files()
     identified = 0
     unmatched = 0
+    total = len(rows)
 
-    logger.info("Identifying %d files against DAT database...", len(rows))
+    bar = ProgressBar(total=total, label="Identifying", unit="files")
 
     with db.transaction():
         for row in rows:
@@ -323,7 +326,59 @@ def cmd_identify(args: argparse.Namespace, config: Config, db: Database) -> None
             else:
                 unmatched += 1
 
+            bar.update(1)
+
+    bar.close()
     logger.info("Identification complete: %d identified, %d unmatched.", identified, unmatched)
+
+
+def cmd_review(args: argparse.Namespace, config: Config, db: Database) -> None:
+    """Execute the 'review' subcommand: interactively review and approve actions."""
+    from reviewer import review_corrupted, review_duplicates, review_actions
+
+    dry_run = not args.apply
+    review_corrupted_flag = args.corrupted
+    review_duplicates_flag = args.duplicates
+    review_actions_flag = args.actions
+
+    # If no specific flags, review everything.
+    if not review_corrupted_flag and not review_duplicates_flag and not review_actions_flag:
+        review_corrupted_flag = True
+        review_duplicates_flag = True
+        review_actions_flag = True
+
+    if dry_run:
+        print("=" * 72)
+        print("  DRY RUN — no files will be modified. Use --apply to make changes.")
+        print("=" * 72)
+
+    # Backup DB before any mutations.
+    if not dry_run:
+        db.backup()
+
+    if review_corrupted_flag:
+        print("\n" + "=" * 72)
+        print("  REVIEW: CORRUPTED / ERROR FILES")
+        print("=" * 72)
+        review_corrupted(db, config, dry_run=dry_run)
+
+    if review_duplicates_flag:
+        print("\n" + "=" * 72)
+        print("  REVIEW: EXACT DUPLICATES")
+        print("=" * 72)
+        review_duplicates(db, config, dry_run=dry_run)
+
+    if review_actions_flag:
+        print("\n" + "=" * 72)
+        print("  REVIEW: PROPOSED ACTIONS")
+        print("=" * 72)
+        review_actions(db, config, dry_run=dry_run)
+
+    if dry_run:
+        print("\n" + "=" * 72)
+        print("  DRY RUN COMPLETE — no files were modified.")
+        print("  Re-run with --apply to make changes.")
+        print("=" * 72)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -419,6 +474,32 @@ def build_parser() -> argparse.ArgumentParser:
     # ── identify ──────────────────────────────────────────────────────
     subparsers.add_parser("identify", help="Match scanned files against loaded DAT entries.")
 
+    # ── review ───────────────────────────────────────────────────────
+    review_parser = subparsers.add_parser(
+        "review",
+        help="Interactively review and approve actions from the scan report.",
+    )
+    review_parser.add_argument(
+        "--corrupted",
+        action="store_true",
+        help="Review corrupted/error files.",
+    )
+    review_parser.add_argument(
+        "--duplicates",
+        action="store_true",
+        help="Review exact duplicate groups.",
+    )
+    review_parser.add_argument(
+        "--actions",
+        action="store_true",
+        help="Review pending proposed actions (renames, moves, quarantines).",
+    )
+    review_parser.add_argument(
+        "--apply",
+        action="store_true",
+        help="Actually apply approved actions (default is dry-run).",
+    )
+
     return parser
 
 
@@ -468,6 +549,8 @@ def main() -> None:
             cmd_load_dats(args, config, db)
         elif args.command == "identify":
             cmd_identify(args, config, db)
+        elif args.command == "review":
+            cmd_review(args, config, db)
         else:
             parser.print_help()
     except KeyboardInterrupt:

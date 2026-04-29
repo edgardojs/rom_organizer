@@ -250,6 +250,40 @@ class TestDatabase(unittest.TestCase):
         stats = self.db.get_stats()
         self.assertEqual(stats["total_files"], 1)
 
+    def test_error_file_tracking(self) -> None:
+        """Test that scan_error and hash_error statuses are tracked."""
+        fid = self.db.upsert_file(
+            path="/roms/bad.zip",
+            original_name="bad.zip",
+            extension=".zip",
+            size=1024,
+        )
+        self.db.update_file_status(fid, "scan_error", "Archive inspection failed: corrupt")
+        errors = self.db.get_error_files()
+        self.assertEqual(len(errors), 1)
+        self.assertEqual(errors[0]["status"], "scan_error")
+        self.assertIn("corrupt", errors[0]["notes"])
+
+    def test_get_stats_error_counts(self) -> None:
+        """Test that get_stats includes scan_errors and hash_errors."""
+        fid1 = self.db.upsert_file(
+            path="/roms/bad1.zip",
+            original_name="bad1.zip",
+            extension=".zip",
+            size=1024,
+        )
+        fid2 = self.db.upsert_file(
+            path="/roms/bad2.nes",
+            original_name="bad2.nes",
+            extension=".nes",
+            size=4096,
+        )
+        self.db.update_file_status(fid1, "scan_error", "corrupt archive")
+        self.db.update_file_status(fid2, "hash_error", "permission denied")
+        stats = self.db.get_stats()
+        self.assertEqual(stats["scan_errors"], 1)
+        self.assertEqual(stats["hash_errors"], 1)
+
 
 if __name__ == "__main__":
     unittest.main()

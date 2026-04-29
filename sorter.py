@@ -41,6 +41,11 @@ def find_exact_duplicates(db: Database) -> int:
     Returns:
         The number of exact duplicate groups found.
     """
+    # Clear old exact duplicate groups to avoid accumulation on re-runs.
+    db.conn.execute("DELETE FROM duplicate_group_members WHERE group_id IN (SELECT id FROM duplicate_groups WHERE group_type = 'exact')")
+    db.conn.execute("DELETE FROM duplicate_groups WHERE group_type = 'exact'")
+    db._commit_or_defer()
+
     # Find hashes that appear more than once.
     rows = db.conn.execute(
         "SELECT sha256, COUNT(*) as cnt FROM files WHERE sha256 IS NOT NULL GROUP BY sha256 HAVING cnt > 1 ORDER BY sha256"
@@ -93,6 +98,11 @@ def find_possible_duplicates(db: Database, config: Config) -> int:
     Returns:
         The number of possible duplicate groups found.
     """
+    # Clear old possible duplicate groups to avoid accumulation on re-runs.
+    db.conn.execute("DELETE FROM duplicate_group_members WHERE group_id IN (SELECT id FROM duplicate_groups WHERE group_type = 'possible')")
+    db.conn.execute("DELETE FROM duplicate_groups WHERE group_type = 'possible'")
+    db._commit_or_defer()
+
     # Get all files with normalized names.
     rows = db.conn.execute(
         "SELECT id, path, original_name, normalized_name, extension, size, sha256 FROM files ORDER BY normalized_name, size"
@@ -159,6 +169,11 @@ def propose_organize_actions(db: Database, config: Config, dry_run: bool = False
     # Ensure normalization has been computed before proposing renames.
     from normalizer import normalize_all_files
     normalize_all_files(db, config, dry_run=dry_run)
+
+    # Clear old pending actions to avoid accumulation on re-runs.
+    if not dry_run:
+        db.conn.execute("DELETE FROM proposed_actions WHERE applied = 0")
+        db._commit_or_defer()
 
     ext_to_system = config.get_extension_to_system_map()
     quarantine_path = config.get_quarantine_path()
@@ -349,11 +364,16 @@ def apply_actions(db: Database, config: Config, dry_run: bool = True) -> dict[st
     Returns:
         A dict with counts of applied/simulated actions by type.
     """
+    from progress import ProgressBar
+
     actions = db.get_pending_actions()
     stats = {"rename": 0, "quarantine": 0, "move": 0, "skipped": 0, "errors": 0}
+    total = len(actions)
 
     if dry_run:
         logger.info("=== DRY RUN — no files will be modified ===")
+
+    bar = ProgressBar(total=total, label="Organizing", unit="actions")
 
     for action in actions:
         source = Path(action["source_path"])
@@ -363,6 +383,7 @@ def apply_actions(db: Database, config: Config, dry_run: bool = True) -> dict[st
         if not source.exists():
             logger.warning("Source file no longer exists: %s", source)
             stats["skipped"] += 1
+            bar.update(1)
             continue
 
         if dry_run:
@@ -374,6 +395,7 @@ def apply_actions(db: Database, config: Config, dry_run: bool = True) -> dict[st
                 action["reason"],
             )
             stats[action_type] += 1
+            bar.update(1)
             continue
 
         # Actually apply the action.
@@ -406,6 +428,7 @@ def apply_actions(db: Database, config: Config, dry_run: bool = True) -> dict[st
                             target,
                         )
                         stats["errors"] += 1
+                        bar.update(1)
                         continue
 
             # Mark the action as applied.
@@ -442,6 +465,9 @@ def apply_actions(db: Database, config: Config, dry_run: bool = True) -> dict[st
             logger.exception("Error applying action %d: %s → %s", action["id"], source, target)
             stats["errors"] += 1
 
+        bar.update(1)
+
+    bar.close()
     if dry_run:
         logger.info("=== DRY RUN COMPLETE — no files were modified ===")
     else:

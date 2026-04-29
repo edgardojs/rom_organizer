@@ -3,11 +3,16 @@
 ========================================================================
 
 ── SUMMARY ──────────────────────────────────────────────────────
-  Total ROM files scanned:       27
-  Unique SHA-256 hashes:         25
-  Exact duplicate groups:        2
-  Possible duplicate groups:     1
-  Pending proposed actions:      0
+  Total ROM files scanned:       8374
+  Unique SHA-256 hashes:         8248
+  Exact duplicate groups:        365
+  Possible duplicate groups:     49
+  Pending proposed actions:      38
+  Identified files (DAT match):  0
+  Archive files inspected:       2834
+
+  ⚠ Scan errors:                30
+  ⚠ Hash errors:                0
 
 ── EXACT DUPLICATES (same SHA-256) ─────────────────────────────
   Group 1 — Hash: 3daf588be5a9941d...
@@ -18,14 +23,1796 @@
     ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
       /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
 
+  Group 4 — Hash: 00f026cf76f2294b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrestwar.zip (1,037,247 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrestwar.zip (1,037,247 bytes)
+
+  Group 5 — Hash: 0b7792a1ddc9365d...
+    ★ /media/osint/512 GB/ROMS/CPS1/forgottn.zip (1,952,681 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/forgottn.zip (1,952,681 bytes)
+
+  Group 6 — Hash: 0ed792ea1544003d...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nost.zip (2,839,361 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nost.zip (2,839,361 bytes)
+
+  Group 7 — Hash: 0ee09926d504e340...
+      /media/osint/512 GB/ROMS/FBNEO/zerowing.zip (556,450 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/zerowing.zip (556,450 bytes)
+
+  Group 8 — Hash: 0f4e8fb2591bb159...
+    ★ /media/osint/512 GB/ROMS/CPS2/progear.zip (13,800,478 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/progear.zip (13,800,478 bytes)
+
+  Group 9 — Hash: 10df2d68ddf77fa2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arabian.zip (38,129 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arabian.zip (38,129 bytes)
+
+  Group 10 — Hash: 12f3ee8fe959319c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/f1gp2.zip (4,216,909 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/f1gp2.zip (4,216,909 bytes)
+
+  Group 11 — Hash: 16604163bdf26e82...
+    ★ /media/osint/512 GB/ROMS/CPS1/cawing.zip (1,440,062 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/cawing.zip (1,440,062 bytes)
+
+  Group 12 — Hash: 1c175b2da272ef26...
+    ★ /media/osint/512 GB/ROMS/CAVE/grindstm.zip (1,115,522 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/grindstm.zip (1,115,522 bytes)
+
+  Group 13 — Hash: 214301abd2f8f61e...
+    ★ /media/osint/512 GB/ROMS/CPS1/msword.zip (1,440,358 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/msword.zip (1,440,358 bytes)
+
+  Group 14 — Hash: 21d11f9c55c706cd...
+    ★ /media/osint/512 GB/ROMS/CPS1/megaman.zip (3,301,557 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman.zip (3,301,557 bytes)
+
+  Group 15 — Hash: 233f41f5831250a4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kicker.zip (50,641 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kicker.zip (50,641 bytes)
+
+  Group 16 — Hash: 23db335a2cdb0559...
+      /media/osint/512 GB/ROMS/FBNEO/truxton2.zip (1,385,520 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/truxton2.zip (1,385,520 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton2.zip (1,385,520 bytes)
+
+  Group 17 — Hash: 259fb2b8b09b5308...
+      /media/osint/512 GB/ROMS/FBNEO/tigerh.zip (96,909 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/tigerh.zip (96,909 bytes)
+
+  Group 18 — Hash: 264947a2830aeb61...
+    ★ /media/osint/512 GB/ROMS/CPS1/slammast.zip (6,589,085 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/slammast.zip (6,589,085 bytes)
+
+  Group 19 — Hash: 26beb691702dc9b3...
+    ★ /media/osint/512 GB/ROMS/CPS3/redearth.zip (38,374,386 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/redearth.zip (38,374,386 bytes)
+
+  Group 20 — Hash: 27e16ff427de6124...
+    ★ /media/osint/512 GB/ROMS/FBNEO/calibr50.zip (2,214,000 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/calibr50.zip (2,214,000 bytes)
+
+  Group 21 — Hash: 2b6ab09436499db6...
+      /media/osint/512 GB/ROMS/FBNEO/ddp3.zip (18,646,889 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddp3.zip (18,646,889 bytes)
+
+  Group 22 — Hash: 2beca5f6c8fe7173...
+    ★ /media/osint/512 GB/ROMS/FBNEO/twinbee.zip (97,550 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/twinbee.zip (97,550 bytes)
+
+  Group 23 — Hash: 2c4f87a05f568592...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mikie.zip (78,469 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mikie.zip (78,469 bytes)
+
+  Group 24 — Hash: 2d16e139a9576c9f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arkanoid.zip (72,162 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arkanoid.zip (72,162 bytes)
+
+  Group 25 — Hash: 2dfc59da0a8c6a63...
+    ★ /media/osint/512 GB/ROMS/CPS1/kod.zip (2,361,501 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/kod.zip (2,361,501 bytes)
+
+  Group 26 — Hash: 2f2a643f0943068f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gyruss.zip (43,127 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gyruss.zip (43,127 bytes)
+
+  Group 27 — Hash: 33e2a0f2120d9711...
+    ★ /media/osint/512 GB/ROMS/FBNEO/upndown.zip (62,385 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/upndown.zip (62,385 bytes)
+
+  Group 28 — Hash: 3488754982623789...
+    ★ /media/osint/512 GB/ROMS/CPS1/strider.zip (2,101,117 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/strider.zip (2,101,117 bytes)
+
+  Group 29 — Hash: 359337a89e7ed65b...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2t.zip (11,892,505 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2t.zip (11,892,505 bytes)
+
+  Group 30 — Hash: 36e089ec87830a51...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lwings.zip (228,842 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lwings.zip (228,842 bytes)
+
+  Group 31 — Hash: 39a8928e85d0b007...
+    ★ /media/osint/512 GB/ROMS/FBNEO/pooyan.zip (34,710 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/pooyan.zip (34,710 bytes)
+
+  Group 32 — Hash: 3abca84782294937...
+      /media/osint/512 GB/ROMS/FBNEO/hellfire.zip (377,423 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/hellfire.zip (377,423 bytes)
+
+  Group 33 — Hash: 3d2d8f0eac16cffa...
+    ★ /media/osint/512 GB/ROMS/CPS1/3wonders.zip (2,479,888 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/3wonders.zip (2,479,888 bytes)
+
+  Group 34 — Hash: 3daf588be5a9941d...
+      /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen (524,288 bytes)
+    ★ /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen (524,288 bytes)
+
+  Group 35 — Hash: 41e54d65889d9bdf...
+    ★ /media/osint/512 GB/ROMS/CPS1/knights.zip (2,355,202 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/knights.zip (2,355,202 bytes)
+
+  Group 36 — Hash: 4356aee2d9f1e8ce...
+    ★ /media/osint/512 GB/ROMS/CPS2/megaman2.zip (7,403,704 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman2.zip (7,403,704 bytes)
+
+  Group 37 — Hash: 4646cfeaa887adc7...
+      /media/osint/512 GB/ROMS/FBNEO/ket.zip (20,364,534 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ket.zip (20,364,534 bytes)
+
+  Group 38 — Hash: 4a46a453bf789353...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunbird.zip (4,539,053 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunbird.zip (4,539,053 bytes)
+
+  Group 39 — Hash: 4c61ff58c00ded3c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/madshark.zip (1,923,822 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/madshark.zip (1,923,822 bytes)
+
+  Group 40 — Hash: 4fa997beb456965c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/devstors.zip (639,925 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/devstors.zip (639,925 bytes)
+
+  Group 41 — Hash: 51d045c96091f0f1...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2.zip (10,330,846 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2.zip (10,330,846 bytes)
+
+  Group 42 — Hash: 52b71f5b254f5514...
+    ★ /media/osint/512 GB/ROMS/FBNEO/neobattl.zip (1,231,676 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/neobattl.zip (1,231,676 bytes)
+
+  Group 43 — Hash: 572d44cf70d45b26...
+      /media/osint/512 GB/ROMS/FBNEO/donpachi.zip (4,846,905 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/donpachi.zip (4,846,905 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/donpachi.zip (4,846,905 bytes)
+
+  Group 44 — Hash: 581e06a111c6e9d5...
+    ★ /media/osint/512 GB/ROMS/MSX/Kempelen Chess (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Kenpelen Chess (Japan).rom (131,072 bytes)
+
+  Group 45 — Hash: 58f66967662930ae...
+    ★ /media/osint/512 GB/ROMS/GG/NBA Jam (USA).gg (524,288 bytes)
+      /media/osint/512 GB/ROMS/GG/NBA Jam Tournament Edition (USA, Europe).gg (524,288 bytes)
+
+  Group 46 — Hash: 5944bd9911c1316c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunsmoke.zip (241,952 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunsmoke.zip (241,952 bytes)
+
+  Group 47 — Hash: 6022ea8a5767a19b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/bombjack.zip (56,902 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/bombjack.zip (56,902 bytes)
+
+  Group 48 — Hash: 6065aaed188ec732...
+    ★ /media/osint/512 GB/ROMS/CPS1/pnickj.zip (768,480 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pnickj.zip (768,480 bytes)
+
+  Group 49 — Hash: 61f007bff06ec5c2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gbusters.zip (610,609 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gbusters.zip (610,609 bytes)
+
+  Group 50 — Hash: 662eaf5dc4577f61...
+      /media/osint/512 GB/ROMS/FBNEO/guwange.zip (18,761,704 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/guwange.zip (18,761,704 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/guwange.zip (18,761,704 bytes)
+
+  Group 51 — Hash: 685530a0a39eb6a6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/rallybik.zip (377,947 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/rallybik.zip (377,947 bytes)
+
+  Group 52 — Hash: 6a31cec4efd9123f...
+    ★ /media/osint/512 GB/ROMS/CPS1/wof.zip (3,943,624 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/wof.zip (3,943,624 bytes)
+
+  Group 53 — Hash: 6c1bb5c14080250e...
+    ★ /media/osint/512 GB/ROMS/CPS3/sfiii2.zip (43,777,198 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sfiii2.zip (43,777,198 bytes)
+
+  Group 54 — Hash: 6c545d8afd82f5f5...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lizwiz.zip (19,782 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lizwiz.zip (19,782 bytes)
+
+  Group 55 — Hash: 6cee3a7c111eac4c...
+    ★ /media/osint/512 GB/ROMS/CAVE/vimana.zip (802,554 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vimana.zip (802,554 bytes)
+
+  Group 56 — Hash: 702e154c35ee94de...
+    ★ /media/osint/512 GB/ROMS/FBNEO/jackal.zip (233,428 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/jackal.zip (233,428 bytes)
+
+  Group 57 — Hash: 749ff1a64f62e9c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/vhunt2.zip (23,460,255 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vhunt2.zip (23,460,255 bytes)
+
+  Group 58 — Hash: 795af09acf25f299...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mazinger.zip (2,912,728 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mazinger.zip (2,912,728 bytes)
+
+  Group 59 — Hash: 7a9cd980e562b6ca...
+    ★ /media/osint/512 GB/ROMS/CPS1/captcomm.zip (2,542,116 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/captcomm.zip (2,542,116 bytes)
+
+  Group 60 — Hash: 7c4446c61fc5a9f7...
+    ★ /media/osint/512 GB/ROMS/FBNEO/fstarfrc.zip (978,965 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/fstarfrc.zip (978,965 bytes)
+
+  Group 61 — Hash: 81100dd173467faa...
+    ★ /media/osint/512 GB/ROMS/FBNEO/citybomb.zip (607,022 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/citybomb.zip (607,022 bytes)
+
+  Group 62 — Hash: 8374fafe9f0053a2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mspacman.zip (21,791 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mspacman.zip (21,791 bytes)
+
+  Group 63 — Hash: 874d8cd7e367941c...
+    ★ /media/osint/512 GB/ROMS/CPS1/unsquad.zip (1,274,553 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/unsquad.zip (1,274,553 bytes)
+
+  Group 64 — Hash: 881e7e724fc055c0...
+    ★ /media/osint/512 GB/ROMS/CPS1/mbombrd.zip (6,510,038 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mbombrd.zip (6,510,038 bytes)
+
+  Group 65 — Hash: 8ab8966c56b27c64...
+    ★ /media/osint/512 GB/ROMS/FBNEO/vaportra.zip (1,150,441 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vaportra.zip (1,150,441 bytes)
+
+  Group 66 — Hash: 8df1b9840493b43c...
+      /media/osint/512 GB/ROMS/FBNEO/fireshrk.zip (541,849 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/fireshrk.zip (541,849 bytes)
+
+  Group 67 — Hash: 8e0dc4048f9f7db6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/airattck.zip (1,039,041 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/airattck.zip (1,039,041 bytes)
+
+  Group 68 — Hash: 8f8f78eaade6d003...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945.zip (5,455,851 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945.zip (5,455,851 bytes)
+
+  Group 69 — Hash: 91f479b6c035a088...
+    ★ /media/osint/512 GB/ROMS/FBNEO/avengers.zip (358,507 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/avengers.zip (358,507 bytes)
+
+  Group 70 — Hash: 934a64cb81871d27...
+    ★ /media/osint/512 GB/ROMS/CPS1/sf2ce.zip (3,584,791 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sf2ce.zip (3,584,791 bytes)
+
+  Group 71 — Hash: 98ae51220e230602...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nitrobal.zip (4,410,688 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nitrobal.zip (4,410,688 bytes)
+
+  Group 72 — Hash: 99952a6f2ee58755...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrofaero.zip (1,415,393 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrofaero.zip (1,415,393 bytes)
+
+  Group 73 — Hash: 9a8c6f67c719e5b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/aerofgt.zip (2,083,061 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/aerofgt.zip (2,083,061 bytes)
+
+  Group 74 — Hash: 9b3006e03869a6b5...
+    ★ /media/osint/512 GB/ROMS/CPS2/batcir.zip (11,310,224 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/batcir.zip (11,310,224 bytes)
+
+  Group 75 — Hash: a021613297431637...
+    ★ /media/osint/512 GB/ROMS/CPS2/19xx.zip (7,838,697 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/19xx.zip (7,838,697 bytes)
+
+  Group 76 — Hash: a0bfe7de019f3f31...
+      /media/osint/512 GB/ROMS/FBNEO/twincobr.zip (387,946 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twincobr.zip (387,946 bytes)
+
+  Group 77 — Hash: a148f6f84aad7e27...
+      /media/osint/512 GB/ROMS/FBNEO/outzone.zip (952,246 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/outzone.zip (952,246 bytes)
+
+  Group 78 — Hash: a38037b46e03c058...
+    ★ /media/osint/512 GB/ROMS/CPS2/spf2t.zip (5,243,337 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/spf2t.zip (5,243,337 bytes)
+
+  Group 79 — Hash: a387c823c3ed1aa8...
+    ★ /media/osint/512 GB/ROMS/FBNEO/battroad.zip (70,832 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battroad.zip (70,832 bytes)
+
+  Group 80 — Hash: a4b7186e3d74692f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mtwins.zip (1,435,432 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mtwins.zip (1,435,432 bytes)
+
+  Group 81 — Hash: a65113372703bd38...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kingdmgp.zip (2,596,652 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kingdmgp.zip (2,596,652 bytes)
+
+  Group 82 — Hash: a6d57d9e432947b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/samuraia.zip (2,810,207 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/samuraia.zip (2,810,207 bytes)
+
+  Group 83 — Hash: a77472dd5fb86038...
+      /media/osint/512 GB/ROMS/FBNEO/dogyuun.zip (2,892,442 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/dogyuun.zip (2,892,442 bytes)
+
+  Group 84 — Hash: a7cc8894488ee126...
+    ★ /media/osint/512 GB/ROMS/CPS1/ffight.zip (1,429,616 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ffight.zip (1,429,616 bytes)
+
+  Group 85 — Hash: a8a5ec7cb0e89293...
+    ★ /media/osint/512 GB/ROMS/CPS2/hsf2.zip (20,976,954 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/hsf2.zip (20,976,954 bytes)
+
+  Group 86 — Hash: a8b22e7718547917...
+    ★ /media/osint/512 GB/ROMS/CPS1/willow.zip (1,773,778 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/willow.zip (1,773,778 bytes)
+
+  Group 87 — Hash: ac0da36b367ee0ab...
+    ★ /media/osint/512 GB/ROMS/CPS1/ghouls.zip (1,608,233 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ghouls.zip (1,608,233 bytes)
+
+  Group 88 — Hash: af16ed2d723f65fd...
+    ★ /media/osint/512 GB/ROMS/GG/RoboCop versus The Terminator (USA, Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/GG/Terminator, The (USA, Europe).gg (262,144 bytes)
+
+  Group 89 — Hash: b3ab2567676f1b63...
+    ★ /media/osint/512 GB/ROMS/FBNEO/dyger.zip (249,852 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/dyger.zip (249,852 bytes)
+
+  Group 90 — Hash: b4809b424b7fd8c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/mmatrix.zip (19,102,430 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mmatrix.zip (19,102,430 bytes)
+
+  Group 91 — Hash: b7e82a760b017ee1...
+    ★ /media/osint/512 GB/ROMS/CPS2/sgemf.zip (16,426,315 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sgemf.zip (16,426,315 bytes)
+
+  Group 92 — Hash: b983ab692c08c075...
+      /media/osint/512 GB/ROMS/FBNEO/esprade.zip (14,414,769 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/esprade.zip (14,414,769 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/esprade.zip (14,414,769 bytes)
+
+  Group 93 — Hash: ba945a5f16371a61...
+    ★ /media/osint/512 GB/ROMS/FBNEO/commando.zip (135,332 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/commando.zip (135,332 bytes)
+
+  Group 94 — Hash: bb55aac502b5ab78...
+    ★ /media/osint/512 GB/ROMS/FBNEO/hotdogst.zip (1,501,013 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/hotdogst.zip (1,501,013 bytes)
+
+  Group 95 — Hash: c28b9bc307ce3903...
+      /media/osint/512 GB/ROMS/FBNEO/espgal.zip (18,191,161 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/espgal.zip (18,191,161 bytes)
+
+  Group 96 — Hash: c2d8d46cff127cf4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/suprglob.zip (18,868 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/suprglob.zip (18,868 bytes)
+
+  Group 97 — Hash: c4d06fed24cde56e...
+    ★ /media/osint/512 GB/ROMS/CPS2/ringdest.zip (13,008,033 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ringdest.zip (13,008,033 bytes)
+
+  Group 98 — Hash: c59ad2e4b620b218...
+    ★ /media/osint/512 GB/ROMS/CPS1/nemo.zip (1,340,367 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/nemo.zip (1,340,367 bytes)
+
+  Group 99 — Hash: c5c05a7813cd44d2...
+    ★ /media/osint/512 GB/ROMS/CPS1/varth.zip (1,544,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/varth.zip (1,544,886 bytes)
+
+  Group 100 — Hash: c7f138f16ddb8c8b...
+    ★ /media/osint/512 GB/ROMS/MSX/King's Valley II - The Seal of El Giza (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Ouke no Tani - El Giza no Fuuin (Japan).rom (131,072 bytes)
+
+  Group 101 — Hash: c85e96362722c3a5...
+    ★ /media/osint/512 GB/ROMS/CPS1/1941.zip (1,420,289 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/1941.zip (1,420,289 bytes)
+
+  Group 102 — Hash: c9f6188cf6e46143...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunfront.zip (2,339,248 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunfront.zip (2,339,248 bytes)
+
+  Group 103 — Hash: cbfe0dd4a6cec897...
+      /media/osint/512 GB/ROMS/FBNEO/batsugun.zip (2,409,980 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/batsugun.zip (2,409,980 bytes)
+
+  Group 104 — Hash: cc9b00ae76b038fb...
+      /media/osint/512 GB/ROMS/FBNEO/ddonpach.zip (7,873,158 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddonpach.zip (7,873,158 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/ddonpach.zip (7,873,158 bytes)
+
+  Group 105 — Hash: cca4d3f692848744...
+    ★ /media/osint/512 GB/ROMS/PS/Ridge Racer 1.PBP (385,052,208 bytes)
+      /media/osint/512 GB/ROMS/PS/Ridge Racer 4.PBP (385,052,208 bytes)
+
+  Group 106 — Hash: d16fff4a59ce26b5...
+    ★ /media/osint/512 GB/ROMS/MSX/Metal Gear (Europe).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Metal Gear (Japan).rom (131,072 bytes)
+
+  Group 107 — Hash: d3700524b1cedf1c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945ii.zip (18,307,306 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945ii.zip (18,307,306 bytes)
+
+  Group 108 — Hash: d6afbe9d67ba1697...
+    ★ /media/osint/512 GB/ROMS/FBNEO/sandscrp.zip (924,722 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/sandscrp.zip (924,722 bytes)
+
+  Group 109 — Hash: d7a48b160e5dc17c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/truxton.zip (578,285 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton.zip (578,285 bytes)
+
+  Group 110 — Hash: d8d2700135be578f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/searchar.zip (1,573,331 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/searchar.zip (1,573,331 bytes)
+
+  Group 111 — Hash: d959b9e3b1dced95...
+    ★ /media/osint/512 GB/ROMS/CPS1/punisher.zip (4,042,628 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/punisher.zip (4,042,628 bytes)
+
+  Group 112 — Hash: e10d5db73f2fc82d...
+    ★ /media/osint/512 GB/ROMS/CPS1/pang3.zip (1,536,927 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pang3.zip (1,536,927 bytes)
+
+  Group 113 — Hash: e3c5f6e9e85032d4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/galmedes.zip (597,320 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/galmedes.zip (597,320 bytes)
+
+  Group 114 — Hash: e6ad897e4dbb8a5f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mercs.zip (1,754,056 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mercs.zip (1,754,056 bytes)
+
+  Group 115 — Hash: e8df4fc6d65a37bb...
+    ★ /media/osint/512 GB/ROMS/CPS2/gigawing.zip (12,637,131 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/gigawing.zip (12,637,131 bytes)
+
+  Group 116 — Hash: ec6f14074c98fa82...
+    ★ /media/osint/512 GB/ROMS/CPS2/vsav2.zip (23,419,311 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vsav2.zip (23,419,311 bytes)
+
+  Group 117 — Hash: ef507428c116e56f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/raflesia.zip (80,542 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/raflesia.zip (80,542 bytes)
+
+  Group 118 — Hash: f281737ccb848bdc...
+    ★ /media/osint/512 GB/ROMS/CPS1/dino.zip (4,116,096 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dino.zip (4,116,096 bytes)
+
+  Group 119 — Hash: f2942d0c397ab271...
+    ★ /media/osint/512 GB/ROMS/FBNEO/thunderl.zip (1,083,460 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/thunderl.zip (1,083,460 bytes)
+
+  Group 120 — Hash: f68463d8e2e91471...
+    ★ /media/osint/512 GB/ROMS/FBNEO/crshrace.zip (4,288,474 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/crshrace.zip (4,288,474 bytes)
+
+  Group 121 — Hash: f9bbc0b192e56759...
+      /media/osint/512 GB/ROMS/FBNEO/twinhawk.zip (808,376 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twinhawk.zip (808,376 bytes)
+
+  Group 122 — Hash: f9cfcad94d7fa8a8...
+    ★ /media/osint/512 GB/ROMS/GG/Excellent Dizzy Collection, The (Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Excellent Dizzy Collection, The (USA, Europe) (En,Fr,De,Es,It) (Proto).sms (262,144 bytes)
+
+  Group 123 — Hash: fcf711ef67e3eb1d...
+    ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
+      /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
+
+  Group 124 — Hash: fda2bc0545ff51fb...
+    ★ /media/osint/512 GB/ROMS/CPS1/dynwar.zip (2,193,606 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dynwar.zip (2,193,606 bytes)
+
+  Group 141 — Hash: 00f026cf76f2294b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrestwar.zip (1,037,247 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrestwar.zip (1,037,247 bytes)
+
+  Group 142 — Hash: 0b7792a1ddc9365d...
+    ★ /media/osint/512 GB/ROMS/CPS1/forgottn.zip (1,952,681 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/forgottn.zip (1,952,681 bytes)
+
+  Group 143 — Hash: 0ed792ea1544003d...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nost.zip (2,839,361 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nost.zip (2,839,361 bytes)
+
+  Group 144 — Hash: 0ee09926d504e340...
+      /media/osint/512 GB/ROMS/FBNEO/zerowing.zip (556,450 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/zerowing.zip (556,450 bytes)
+
+  Group 145 — Hash: 0f4e8fb2591bb159...
+    ★ /media/osint/512 GB/ROMS/CPS2/progear.zip (13,800,478 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/progear.zip (13,800,478 bytes)
+
+  Group 146 — Hash: 10df2d68ddf77fa2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arabian.zip (38,129 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arabian.zip (38,129 bytes)
+
+  Group 147 — Hash: 12f3ee8fe959319c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/f1gp2.zip (4,216,909 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/f1gp2.zip (4,216,909 bytes)
+
+  Group 148 — Hash: 16604163bdf26e82...
+    ★ /media/osint/512 GB/ROMS/CPS1/cawing.zip (1,440,062 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/cawing.zip (1,440,062 bytes)
+
+  Group 149 — Hash: 1c175b2da272ef26...
+    ★ /media/osint/512 GB/ROMS/CAVE/grindstm.zip (1,115,522 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/grindstm.zip (1,115,522 bytes)
+
+  Group 150 — Hash: 214301abd2f8f61e...
+    ★ /media/osint/512 GB/ROMS/CPS1/msword.zip (1,440,358 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/msword.zip (1,440,358 bytes)
+
+  Group 151 — Hash: 21d11f9c55c706cd...
+    ★ /media/osint/512 GB/ROMS/CPS1/megaman.zip (3,301,557 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman.zip (3,301,557 bytes)
+
+  Group 152 — Hash: 233f41f5831250a4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kicker.zip (50,641 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kicker.zip (50,641 bytes)
+
+  Group 153 — Hash: 23db335a2cdb0559...
+      /media/osint/512 GB/ROMS/FBNEO/truxton2.zip (1,385,520 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/truxton2.zip (1,385,520 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton2.zip (1,385,520 bytes)
+
+  Group 154 — Hash: 259fb2b8b09b5308...
+      /media/osint/512 GB/ROMS/FBNEO/tigerh.zip (96,909 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/tigerh.zip (96,909 bytes)
+
+  Group 155 — Hash: 264947a2830aeb61...
+    ★ /media/osint/512 GB/ROMS/CPS1/slammast.zip (6,589,085 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/slammast.zip (6,589,085 bytes)
+
+  Group 156 — Hash: 26beb691702dc9b3...
+    ★ /media/osint/512 GB/ROMS/CPS3/redearth.zip (38,374,386 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/redearth.zip (38,374,386 bytes)
+
+  Group 157 — Hash: 27e16ff427de6124...
+    ★ /media/osint/512 GB/ROMS/FBNEO/calibr50.zip (2,214,000 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/calibr50.zip (2,214,000 bytes)
+
+  Group 158 — Hash: 2b6ab09436499db6...
+      /media/osint/512 GB/ROMS/FBNEO/ddp3.zip (18,646,889 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddp3.zip (18,646,889 bytes)
+
+  Group 159 — Hash: 2beca5f6c8fe7173...
+    ★ /media/osint/512 GB/ROMS/FBNEO/twinbee.zip (97,550 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/twinbee.zip (97,550 bytes)
+
+  Group 160 — Hash: 2c4f87a05f568592...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mikie.zip (78,469 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mikie.zip (78,469 bytes)
+
+  Group 161 — Hash: 2d16e139a9576c9f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arkanoid.zip (72,162 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arkanoid.zip (72,162 bytes)
+
+  Group 162 — Hash: 2dfc59da0a8c6a63...
+    ★ /media/osint/512 GB/ROMS/CPS1/kod.zip (2,361,501 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/kod.zip (2,361,501 bytes)
+
+  Group 163 — Hash: 2f2a643f0943068f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gyruss.zip (43,127 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gyruss.zip (43,127 bytes)
+
+  Group 164 — Hash: 33e2a0f2120d9711...
+    ★ /media/osint/512 GB/ROMS/FBNEO/upndown.zip (62,385 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/upndown.zip (62,385 bytes)
+
+  Group 165 — Hash: 3488754982623789...
+    ★ /media/osint/512 GB/ROMS/CPS1/strider.zip (2,101,117 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/strider.zip (2,101,117 bytes)
+
+  Group 166 — Hash: 359337a89e7ed65b...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2t.zip (11,892,505 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2t.zip (11,892,505 bytes)
+
+  Group 167 — Hash: 36e089ec87830a51...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lwings.zip (228,842 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lwings.zip (228,842 bytes)
+
+  Group 168 — Hash: 39a8928e85d0b007...
+    ★ /media/osint/512 GB/ROMS/FBNEO/pooyan.zip (34,710 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/pooyan.zip (34,710 bytes)
+
+  Group 169 — Hash: 3abca84782294937...
+      /media/osint/512 GB/ROMS/FBNEO/hellfire.zip (377,423 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/hellfire.zip (377,423 bytes)
+
+  Group 170 — Hash: 3d2d8f0eac16cffa...
+    ★ /media/osint/512 GB/ROMS/CPS1/3wonders.zip (2,479,888 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/3wonders.zip (2,479,888 bytes)
+
+  Group 171 — Hash: 3daf588be5a9941d...
+      /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen (524,288 bytes)
+    ★ /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen (524,288 bytes)
+
+  Group 172 — Hash: 41e54d65889d9bdf...
+    ★ /media/osint/512 GB/ROMS/CPS1/knights.zip (2,355,202 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/knights.zip (2,355,202 bytes)
+
+  Group 173 — Hash: 4356aee2d9f1e8ce...
+    ★ /media/osint/512 GB/ROMS/CPS2/megaman2.zip (7,403,704 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman2.zip (7,403,704 bytes)
+
+  Group 174 — Hash: 4646cfeaa887adc7...
+      /media/osint/512 GB/ROMS/FBNEO/ket.zip (20,364,534 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ket.zip (20,364,534 bytes)
+
+  Group 175 — Hash: 4a46a453bf789353...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunbird.zip (4,539,053 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunbird.zip (4,539,053 bytes)
+
+  Group 176 — Hash: 4c61ff58c00ded3c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/madshark.zip (1,923,822 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/madshark.zip (1,923,822 bytes)
+
+  Group 177 — Hash: 4fa997beb456965c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/devstors.zip (639,925 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/devstors.zip (639,925 bytes)
+
+  Group 178 — Hash: 51d045c96091f0f1...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2.zip (10,330,846 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2.zip (10,330,846 bytes)
+
+  Group 179 — Hash: 52b71f5b254f5514...
+    ★ /media/osint/512 GB/ROMS/FBNEO/neobattl.zip (1,231,676 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/neobattl.zip (1,231,676 bytes)
+
+  Group 180 — Hash: 572d44cf70d45b26...
+      /media/osint/512 GB/ROMS/FBNEO/donpachi.zip (4,846,905 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/donpachi.zip (4,846,905 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/donpachi.zip (4,846,905 bytes)
+
+  Group 181 — Hash: 581e06a111c6e9d5...
+    ★ /media/osint/512 GB/ROMS/MSX/Kempelen Chess (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Kenpelen Chess (Japan).rom (131,072 bytes)
+
+  Group 182 — Hash: 58f66967662930ae...
+    ★ /media/osint/512 GB/ROMS/GG/NBA Jam (USA).gg (524,288 bytes)
+      /media/osint/512 GB/ROMS/GG/NBA Jam Tournament Edition (USA, Europe).gg (524,288 bytes)
+
+  Group 183 — Hash: 5944bd9911c1316c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunsmoke.zip (241,952 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunsmoke.zip (241,952 bytes)
+
+  Group 184 — Hash: 6022ea8a5767a19b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/bombjack.zip (56,902 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/bombjack.zip (56,902 bytes)
+
+  Group 185 — Hash: 6065aaed188ec732...
+    ★ /media/osint/512 GB/ROMS/CPS1/pnickj.zip (768,480 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pnickj.zip (768,480 bytes)
+
+  Group 186 — Hash: 61f007bff06ec5c2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gbusters.zip (610,609 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gbusters.zip (610,609 bytes)
+
+  Group 187 — Hash: 662eaf5dc4577f61...
+      /media/osint/512 GB/ROMS/FBNEO/guwange.zip (18,761,704 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/guwange.zip (18,761,704 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/guwange.zip (18,761,704 bytes)
+
+  Group 188 — Hash: 685530a0a39eb6a6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/rallybik.zip (377,947 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/rallybik.zip (377,947 bytes)
+
+  Group 189 — Hash: 6a31cec4efd9123f...
+    ★ /media/osint/512 GB/ROMS/CPS1/wof.zip (3,943,624 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/wof.zip (3,943,624 bytes)
+
+  Group 190 — Hash: 6c1bb5c14080250e...
+    ★ /media/osint/512 GB/ROMS/CPS3/sfiii2.zip (43,777,198 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sfiii2.zip (43,777,198 bytes)
+
+  Group 191 — Hash: 6c545d8afd82f5f5...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lizwiz.zip (19,782 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lizwiz.zip (19,782 bytes)
+
+  Group 192 — Hash: 6cee3a7c111eac4c...
+    ★ /media/osint/512 GB/ROMS/CAVE/vimana.zip (802,554 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vimana.zip (802,554 bytes)
+
+  Group 193 — Hash: 702e154c35ee94de...
+    ★ /media/osint/512 GB/ROMS/FBNEO/jackal.zip (233,428 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/jackal.zip (233,428 bytes)
+
+  Group 194 — Hash: 749ff1a64f62e9c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/vhunt2.zip (23,460,255 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vhunt2.zip (23,460,255 bytes)
+
+  Group 195 — Hash: 795af09acf25f299...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mazinger.zip (2,912,728 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mazinger.zip (2,912,728 bytes)
+
+  Group 196 — Hash: 7a9cd980e562b6ca...
+    ★ /media/osint/512 GB/ROMS/CPS1/captcomm.zip (2,542,116 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/captcomm.zip (2,542,116 bytes)
+
+  Group 197 — Hash: 7c4446c61fc5a9f7...
+    ★ /media/osint/512 GB/ROMS/FBNEO/fstarfrc.zip (978,965 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/fstarfrc.zip (978,965 bytes)
+
+  Group 198 — Hash: 81100dd173467faa...
+    ★ /media/osint/512 GB/ROMS/FBNEO/citybomb.zip (607,022 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/citybomb.zip (607,022 bytes)
+
+  Group 199 — Hash: 8374fafe9f0053a2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mspacman.zip (21,791 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mspacman.zip (21,791 bytes)
+
+  Group 200 — Hash: 874d8cd7e367941c...
+    ★ /media/osint/512 GB/ROMS/CPS1/unsquad.zip (1,274,553 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/unsquad.zip (1,274,553 bytes)
+
+  Group 201 — Hash: 881e7e724fc055c0...
+    ★ /media/osint/512 GB/ROMS/CPS1/mbombrd.zip (6,510,038 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mbombrd.zip (6,510,038 bytes)
+
+  Group 202 — Hash: 8ab8966c56b27c64...
+    ★ /media/osint/512 GB/ROMS/FBNEO/vaportra.zip (1,150,441 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vaportra.zip (1,150,441 bytes)
+
+  Group 203 — Hash: 8df1b9840493b43c...
+      /media/osint/512 GB/ROMS/FBNEO/fireshrk.zip (541,849 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/fireshrk.zip (541,849 bytes)
+
+  Group 204 — Hash: 8e0dc4048f9f7db6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/airattck.zip (1,039,041 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/airattck.zip (1,039,041 bytes)
+
+  Group 205 — Hash: 8f8f78eaade6d003...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945.zip (5,455,851 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945.zip (5,455,851 bytes)
+
+  Group 206 — Hash: 91f479b6c035a088...
+    ★ /media/osint/512 GB/ROMS/FBNEO/avengers.zip (358,507 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/avengers.zip (358,507 bytes)
+
+  Group 207 — Hash: 934a64cb81871d27...
+    ★ /media/osint/512 GB/ROMS/CPS1/sf2ce.zip (3,584,791 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sf2ce.zip (3,584,791 bytes)
+
+  Group 208 — Hash: 98ae51220e230602...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nitrobal.zip (4,410,688 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nitrobal.zip (4,410,688 bytes)
+
+  Group 209 — Hash: 99952a6f2ee58755...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrofaero.zip (1,415,393 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrofaero.zip (1,415,393 bytes)
+
+  Group 210 — Hash: 9a8c6f67c719e5b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/aerofgt.zip (2,083,061 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/aerofgt.zip (2,083,061 bytes)
+
+  Group 211 — Hash: 9b3006e03869a6b5...
+    ★ /media/osint/512 GB/ROMS/CPS2/batcir.zip (11,310,224 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/batcir.zip (11,310,224 bytes)
+
+  Group 212 — Hash: a021613297431637...
+    ★ /media/osint/512 GB/ROMS/CPS2/19xx.zip (7,838,697 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/19xx.zip (7,838,697 bytes)
+
+  Group 213 — Hash: a0bfe7de019f3f31...
+      /media/osint/512 GB/ROMS/FBNEO/twincobr.zip (387,946 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twincobr.zip (387,946 bytes)
+
+  Group 214 — Hash: a148f6f84aad7e27...
+      /media/osint/512 GB/ROMS/FBNEO/outzone.zip (952,246 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/outzone.zip (952,246 bytes)
+
+  Group 215 — Hash: a38037b46e03c058...
+    ★ /media/osint/512 GB/ROMS/CPS2/spf2t.zip (5,243,337 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/spf2t.zip (5,243,337 bytes)
+
+  Group 216 — Hash: a387c823c3ed1aa8...
+    ★ /media/osint/512 GB/ROMS/FBNEO/battroad.zip (70,832 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battroad.zip (70,832 bytes)
+
+  Group 217 — Hash: a4b7186e3d74692f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mtwins.zip (1,435,432 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mtwins.zip (1,435,432 bytes)
+
+  Group 218 — Hash: a65113372703bd38...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kingdmgp.zip (2,596,652 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kingdmgp.zip (2,596,652 bytes)
+
+  Group 219 — Hash: a6d57d9e432947b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/samuraia.zip (2,810,207 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/samuraia.zip (2,810,207 bytes)
+
+  Group 220 — Hash: a77472dd5fb86038...
+      /media/osint/512 GB/ROMS/FBNEO/dogyuun.zip (2,892,442 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/dogyuun.zip (2,892,442 bytes)
+
+  Group 221 — Hash: a7cc8894488ee126...
+    ★ /media/osint/512 GB/ROMS/CPS1/ffight.zip (1,429,616 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ffight.zip (1,429,616 bytes)
+
+  Group 222 — Hash: a8a5ec7cb0e89293...
+    ★ /media/osint/512 GB/ROMS/CPS2/hsf2.zip (20,976,954 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/hsf2.zip (20,976,954 bytes)
+
+  Group 223 — Hash: a8b22e7718547917...
+    ★ /media/osint/512 GB/ROMS/CPS1/willow.zip (1,773,778 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/willow.zip (1,773,778 bytes)
+
+  Group 224 — Hash: ac0da36b367ee0ab...
+    ★ /media/osint/512 GB/ROMS/CPS1/ghouls.zip (1,608,233 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ghouls.zip (1,608,233 bytes)
+
+  Group 225 — Hash: af16ed2d723f65fd...
+    ★ /media/osint/512 GB/ROMS/GG/RoboCop versus The Terminator (USA, Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/GG/Terminator, The (USA, Europe).gg (262,144 bytes)
+
+  Group 226 — Hash: b3ab2567676f1b63...
+    ★ /media/osint/512 GB/ROMS/FBNEO/dyger.zip (249,852 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/dyger.zip (249,852 bytes)
+
+  Group 227 — Hash: b4809b424b7fd8c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/mmatrix.zip (19,102,430 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mmatrix.zip (19,102,430 bytes)
+
+  Group 228 — Hash: b7e82a760b017ee1...
+    ★ /media/osint/512 GB/ROMS/CPS2/sgemf.zip (16,426,315 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sgemf.zip (16,426,315 bytes)
+
+  Group 229 — Hash: b983ab692c08c075...
+      /media/osint/512 GB/ROMS/FBNEO/esprade.zip (14,414,769 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/esprade.zip (14,414,769 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/esprade.zip (14,414,769 bytes)
+
+  Group 230 — Hash: ba945a5f16371a61...
+    ★ /media/osint/512 GB/ROMS/FBNEO/commando.zip (135,332 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/commando.zip (135,332 bytes)
+
+  Group 231 — Hash: bb55aac502b5ab78...
+    ★ /media/osint/512 GB/ROMS/FBNEO/hotdogst.zip (1,501,013 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/hotdogst.zip (1,501,013 bytes)
+
+  Group 232 — Hash: c28b9bc307ce3903...
+      /media/osint/512 GB/ROMS/FBNEO/espgal.zip (18,191,161 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/espgal.zip (18,191,161 bytes)
+
+  Group 233 — Hash: c2d8d46cff127cf4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/suprglob.zip (18,868 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/suprglob.zip (18,868 bytes)
+
+  Group 234 — Hash: c4d06fed24cde56e...
+    ★ /media/osint/512 GB/ROMS/CPS2/ringdest.zip (13,008,033 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ringdest.zip (13,008,033 bytes)
+
+  Group 235 — Hash: c59ad2e4b620b218...
+    ★ /media/osint/512 GB/ROMS/CPS1/nemo.zip (1,340,367 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/nemo.zip (1,340,367 bytes)
+
+  Group 236 — Hash: c5c05a7813cd44d2...
+    ★ /media/osint/512 GB/ROMS/CPS1/varth.zip (1,544,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/varth.zip (1,544,886 bytes)
+
+  Group 237 — Hash: c7f138f16ddb8c8b...
+    ★ /media/osint/512 GB/ROMS/MSX/King's Valley II - The Seal of El Giza (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Ouke no Tani - El Giza no Fuuin (Japan).rom (131,072 bytes)
+
+  Group 238 — Hash: c85e96362722c3a5...
+    ★ /media/osint/512 GB/ROMS/CPS1/1941.zip (1,420,289 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/1941.zip (1,420,289 bytes)
+
+  Group 239 — Hash: c9f6188cf6e46143...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunfront.zip (2,339,248 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunfront.zip (2,339,248 bytes)
+
+  Group 240 — Hash: cbfe0dd4a6cec897...
+      /media/osint/512 GB/ROMS/FBNEO/batsugun.zip (2,409,980 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/batsugun.zip (2,409,980 bytes)
+
+  Group 241 — Hash: cc9b00ae76b038fb...
+      /media/osint/512 GB/ROMS/FBNEO/ddonpach.zip (7,873,158 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddonpach.zip (7,873,158 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/ddonpach.zip (7,873,158 bytes)
+
+  Group 242 — Hash: cca4d3f692848744...
+    ★ /media/osint/512 GB/ROMS/PS/Ridge Racer 1.PBP (385,052,208 bytes)
+      /media/osint/512 GB/ROMS/PS/Ridge Racer 4.PBP (385,052,208 bytes)
+
+  Group 243 — Hash: d16fff4a59ce26b5...
+    ★ /media/osint/512 GB/ROMS/MSX/Metal Gear (Europe).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Metal Gear (Japan).rom (131,072 bytes)
+
+  Group 244 — Hash: d3700524b1cedf1c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945ii.zip (18,307,306 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945ii.zip (18,307,306 bytes)
+
+  Group 245 — Hash: d6afbe9d67ba1697...
+    ★ /media/osint/512 GB/ROMS/FBNEO/sandscrp.zip (924,722 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/sandscrp.zip (924,722 bytes)
+
+  Group 246 — Hash: d7a48b160e5dc17c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/truxton.zip (578,285 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton.zip (578,285 bytes)
+
+  Group 247 — Hash: d8d2700135be578f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/searchar.zip (1,573,331 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/searchar.zip (1,573,331 bytes)
+
+  Group 248 — Hash: d959b9e3b1dced95...
+    ★ /media/osint/512 GB/ROMS/CPS1/punisher.zip (4,042,628 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/punisher.zip (4,042,628 bytes)
+
+  Group 249 — Hash: e10d5db73f2fc82d...
+    ★ /media/osint/512 GB/ROMS/CPS1/pang3.zip (1,536,927 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pang3.zip (1,536,927 bytes)
+
+  Group 250 — Hash: e3c5f6e9e85032d4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/galmedes.zip (597,320 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/galmedes.zip (597,320 bytes)
+
+  Group 251 — Hash: e6ad897e4dbb8a5f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mercs.zip (1,754,056 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mercs.zip (1,754,056 bytes)
+
+  Group 252 — Hash: e8df4fc6d65a37bb...
+    ★ /media/osint/512 GB/ROMS/CPS2/gigawing.zip (12,637,131 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/gigawing.zip (12,637,131 bytes)
+
+  Group 253 — Hash: ec6f14074c98fa82...
+    ★ /media/osint/512 GB/ROMS/CPS2/vsav2.zip (23,419,311 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vsav2.zip (23,419,311 bytes)
+
+  Group 254 — Hash: ef507428c116e56f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/raflesia.zip (80,542 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/raflesia.zip (80,542 bytes)
+
+  Group 255 — Hash: f281737ccb848bdc...
+    ★ /media/osint/512 GB/ROMS/CPS1/dino.zip (4,116,096 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dino.zip (4,116,096 bytes)
+
+  Group 256 — Hash: f2942d0c397ab271...
+    ★ /media/osint/512 GB/ROMS/FBNEO/thunderl.zip (1,083,460 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/thunderl.zip (1,083,460 bytes)
+
+  Group 257 — Hash: f68463d8e2e91471...
+    ★ /media/osint/512 GB/ROMS/FBNEO/crshrace.zip (4,288,474 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/crshrace.zip (4,288,474 bytes)
+
+  Group 258 — Hash: f9bbc0b192e56759...
+      /media/osint/512 GB/ROMS/FBNEO/twinhawk.zip (808,376 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twinhawk.zip (808,376 bytes)
+
+  Group 259 — Hash: f9cfcad94d7fa8a8...
+    ★ /media/osint/512 GB/ROMS/GG/Excellent Dizzy Collection, The (Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Excellent Dizzy Collection, The (USA, Europe) (En,Fr,De,Es,It) (Proto).sms (262,144 bytes)
+
+  Group 260 — Hash: fcf711ef67e3eb1d...
+    ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
+      /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
+
+  Group 261 — Hash: fda2bc0545ff51fb...
+    ★ /media/osint/512 GB/ROMS/CPS1/dynwar.zip (2,193,606 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dynwar.zip (2,193,606 bytes)
+
+  Group 278 — Hash: 00f026cf76f2294b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrestwar.zip (1,037,247 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrestwar.zip (1,037,247 bytes)
+
+  Group 279 — Hash: 0b7792a1ddc9365d...
+    ★ /media/osint/512 GB/ROMS/CPS1/forgottn.zip (1,952,681 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/forgottn.zip (1,952,681 bytes)
+
+  Group 280 — Hash: 0ed792ea1544003d...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nost.zip (2,839,361 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nost.zip (2,839,361 bytes)
+
+  Group 281 — Hash: 0ee09926d504e340...
+      /media/osint/512 GB/ROMS/FBNEO/zerowing.zip (556,450 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/zerowing.zip (556,450 bytes)
+
+  Group 282 — Hash: 0f4e8fb2591bb159...
+    ★ /media/osint/512 GB/ROMS/CPS2/progear.zip (13,800,478 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/progear.zip (13,800,478 bytes)
+
+  Group 283 — Hash: 10df2d68ddf77fa2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arabian.zip (38,129 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arabian.zip (38,129 bytes)
+
+  Group 284 — Hash: 12f3ee8fe959319c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/f1gp2.zip (4,216,909 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/f1gp2.zip (4,216,909 bytes)
+
+  Group 285 — Hash: 16604163bdf26e82...
+    ★ /media/osint/512 GB/ROMS/CPS1/cawing.zip (1,440,062 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/cawing.zip (1,440,062 bytes)
+
+  Group 286 — Hash: 1c175b2da272ef26...
+    ★ /media/osint/512 GB/ROMS/CAVE/grindstm.zip (1,115,522 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/grindstm.zip (1,115,522 bytes)
+
+  Group 287 — Hash: 214301abd2f8f61e...
+    ★ /media/osint/512 GB/ROMS/CPS1/msword.zip (1,440,358 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/msword.zip (1,440,358 bytes)
+
+  Group 288 — Hash: 21d11f9c55c706cd...
+    ★ /media/osint/512 GB/ROMS/CPS1/megaman.zip (3,301,557 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman.zip (3,301,557 bytes)
+
+  Group 289 — Hash: 233f41f5831250a4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kicker.zip (50,641 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kicker.zip (50,641 bytes)
+
+  Group 290 — Hash: 23db335a2cdb0559...
+      /media/osint/512 GB/ROMS/FBNEO/truxton2.zip (1,385,520 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/truxton2.zip (1,385,520 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton2.zip (1,385,520 bytes)
+
+  Group 291 — Hash: 259fb2b8b09b5308...
+      /media/osint/512 GB/ROMS/FBNEO/tigerh.zip (96,909 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/tigerh.zip (96,909 bytes)
+
+  Group 292 — Hash: 264947a2830aeb61...
+    ★ /media/osint/512 GB/ROMS/CPS1/slammast.zip (6,589,085 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/slammast.zip (6,589,085 bytes)
+
+  Group 293 — Hash: 26beb691702dc9b3...
+    ★ /media/osint/512 GB/ROMS/CPS3/redearth.zip (38,374,386 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/redearth.zip (38,374,386 bytes)
+
+  Group 294 — Hash: 27e16ff427de6124...
+    ★ /media/osint/512 GB/ROMS/FBNEO/calibr50.zip (2,214,000 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/calibr50.zip (2,214,000 bytes)
+
+  Group 295 — Hash: 2b6ab09436499db6...
+      /media/osint/512 GB/ROMS/FBNEO/ddp3.zip (18,646,889 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddp3.zip (18,646,889 bytes)
+
+  Group 296 — Hash: 2beca5f6c8fe7173...
+    ★ /media/osint/512 GB/ROMS/FBNEO/twinbee.zip (97,550 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/twinbee.zip (97,550 bytes)
+
+  Group 297 — Hash: 2c4f87a05f568592...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mikie.zip (78,469 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mikie.zip (78,469 bytes)
+
+  Group 298 — Hash: 2d16e139a9576c9f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/arkanoid.zip (72,162 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/arkanoid.zip (72,162 bytes)
+
+  Group 299 — Hash: 2dfc59da0a8c6a63...
+    ★ /media/osint/512 GB/ROMS/CPS1/kod.zip (2,361,501 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/kod.zip (2,361,501 bytes)
+
+  Group 300 — Hash: 2f2a643f0943068f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gyruss.zip (43,127 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gyruss.zip (43,127 bytes)
+
+  Group 301 — Hash: 33e2a0f2120d9711...
+    ★ /media/osint/512 GB/ROMS/FBNEO/upndown.zip (62,385 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/upndown.zip (62,385 bytes)
+
+  Group 302 — Hash: 3488754982623789...
+    ★ /media/osint/512 GB/ROMS/CPS1/strider.zip (2,101,117 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/strider.zip (2,101,117 bytes)
+
+  Group 303 — Hash: 359337a89e7ed65b...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2t.zip (11,892,505 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2t.zip (11,892,505 bytes)
+
+  Group 304 — Hash: 36e089ec87830a51...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lwings.zip (228,842 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lwings.zip (228,842 bytes)
+
+  Group 305 — Hash: 39a8928e85d0b007...
+    ★ /media/osint/512 GB/ROMS/FBNEO/pooyan.zip (34,710 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/pooyan.zip (34,710 bytes)
+
+  Group 306 — Hash: 3abca84782294937...
+      /media/osint/512 GB/ROMS/FBNEO/hellfire.zip (377,423 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/hellfire.zip (377,423 bytes)
+
+  Group 307 — Hash: 3d2d8f0eac16cffa...
+    ★ /media/osint/512 GB/ROMS/CPS1/3wonders.zip (2,479,888 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/3wonders.zip (2,479,888 bytes)
+
+  Group 308 — Hash: 3daf588be5a9941d...
+      /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen (524,288 bytes)
+    ★ /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen (524,288 bytes)
+
+  Group 309 — Hash: 41e54d65889d9bdf...
+    ★ /media/osint/512 GB/ROMS/CPS1/knights.zip (2,355,202 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/knights.zip (2,355,202 bytes)
+
+  Group 310 — Hash: 4356aee2d9f1e8ce...
+    ★ /media/osint/512 GB/ROMS/CPS2/megaman2.zip (7,403,704 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/megaman2.zip (7,403,704 bytes)
+
+  Group 311 — Hash: 4646cfeaa887adc7...
+      /media/osint/512 GB/ROMS/FBNEO/ket.zip (20,364,534 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ket.zip (20,364,534 bytes)
+
+  Group 312 — Hash: 4a46a453bf789353...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunbird.zip (4,539,053 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunbird.zip (4,539,053 bytes)
+
+  Group 313 — Hash: 4c61ff58c00ded3c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/madshark.zip (1,923,822 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/madshark.zip (1,923,822 bytes)
+
+  Group 314 — Hash: 4fa997beb456965c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/devstors.zip (639,925 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/devstors.zip (639,925 bytes)
+
+  Group 315 — Hash: 51d045c96091f0f1...
+    ★ /media/osint/512 GB/ROMS/CPS2/ssf2.zip (10,330,846 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ssf2.zip (10,330,846 bytes)
+
+  Group 316 — Hash: 52b71f5b254f5514...
+    ★ /media/osint/512 GB/ROMS/FBNEO/neobattl.zip (1,231,676 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/neobattl.zip (1,231,676 bytes)
+
+  Group 317 — Hash: 572d44cf70d45b26...
+      /media/osint/512 GB/ROMS/FBNEO/donpachi.zip (4,846,905 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/donpachi.zip (4,846,905 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/donpachi.zip (4,846,905 bytes)
+
+  Group 318 — Hash: 581e06a111c6e9d5...
+    ★ /media/osint/512 GB/ROMS/MSX/Kempelen Chess (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Kenpelen Chess (Japan).rom (131,072 bytes)
+
+  Group 319 — Hash: 58f66967662930ae...
+    ★ /media/osint/512 GB/ROMS/GG/NBA Jam (USA).gg (524,288 bytes)
+      /media/osint/512 GB/ROMS/GG/NBA Jam Tournament Edition (USA, Europe).gg (524,288 bytes)
+
+  Group 320 — Hash: 5944bd9911c1316c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunsmoke.zip (241,952 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunsmoke.zip (241,952 bytes)
+
+  Group 321 — Hash: 6022ea8a5767a19b...
+    ★ /media/osint/512 GB/ROMS/FBNEO/bombjack.zip (56,902 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/bombjack.zip (56,902 bytes)
+
+  Group 322 — Hash: 6065aaed188ec732...
+    ★ /media/osint/512 GB/ROMS/CPS1/pnickj.zip (768,480 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pnickj.zip (768,480 bytes)
+
+  Group 323 — Hash: 61f007bff06ec5c2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gbusters.zip (610,609 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gbusters.zip (610,609 bytes)
+
+  Group 324 — Hash: 662eaf5dc4577f61...
+      /media/osint/512 GB/ROMS/FBNEO/guwange.zip (18,761,704 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/guwange.zip (18,761,704 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/guwange.zip (18,761,704 bytes)
+
+  Group 325 — Hash: 685530a0a39eb6a6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/rallybik.zip (377,947 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/rallybik.zip (377,947 bytes)
+
+  Group 326 — Hash: 6a31cec4efd9123f...
+    ★ /media/osint/512 GB/ROMS/CPS1/wof.zip (3,943,624 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/wof.zip (3,943,624 bytes)
+
+  Group 327 — Hash: 6c1bb5c14080250e...
+    ★ /media/osint/512 GB/ROMS/CPS3/sfiii2.zip (43,777,198 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sfiii2.zip (43,777,198 bytes)
+
+  Group 328 — Hash: 6c545d8afd82f5f5...
+    ★ /media/osint/512 GB/ROMS/FBNEO/lizwiz.zip (19,782 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/lizwiz.zip (19,782 bytes)
+
+  Group 329 — Hash: 6cee3a7c111eac4c...
+    ★ /media/osint/512 GB/ROMS/CAVE/vimana.zip (802,554 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vimana.zip (802,554 bytes)
+
+  Group 330 — Hash: 702e154c35ee94de...
+    ★ /media/osint/512 GB/ROMS/FBNEO/jackal.zip (233,428 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/jackal.zip (233,428 bytes)
+
+  Group 331 — Hash: 749ff1a64f62e9c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/vhunt2.zip (23,460,255 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vhunt2.zip (23,460,255 bytes)
+
+  Group 332 — Hash: 795af09acf25f299...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mazinger.zip (2,912,728 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mazinger.zip (2,912,728 bytes)
+
+  Group 333 — Hash: 7a9cd980e562b6ca...
+    ★ /media/osint/512 GB/ROMS/CPS1/captcomm.zip (2,542,116 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/captcomm.zip (2,542,116 bytes)
+
+  Group 334 — Hash: 7c4446c61fc5a9f7...
+    ★ /media/osint/512 GB/ROMS/FBNEO/fstarfrc.zip (978,965 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/fstarfrc.zip (978,965 bytes)
+
+  Group 335 — Hash: 81100dd173467faa...
+    ★ /media/osint/512 GB/ROMS/FBNEO/citybomb.zip (607,022 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/citybomb.zip (607,022 bytes)
+
+  Group 336 — Hash: 8374fafe9f0053a2...
+    ★ /media/osint/512 GB/ROMS/FBNEO/mspacman.zip (21,791 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/mspacman.zip (21,791 bytes)
+
+  Group 337 — Hash: 874d8cd7e367941c...
+    ★ /media/osint/512 GB/ROMS/CPS1/unsquad.zip (1,274,553 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/unsquad.zip (1,274,553 bytes)
+
+  Group 338 — Hash: 881e7e724fc055c0...
+    ★ /media/osint/512 GB/ROMS/CPS1/mbombrd.zip (6,510,038 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mbombrd.zip (6,510,038 bytes)
+
+  Group 339 — Hash: 8ab8966c56b27c64...
+    ★ /media/osint/512 GB/ROMS/FBNEO/vaportra.zip (1,150,441 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vaportra.zip (1,150,441 bytes)
+
+  Group 340 — Hash: 8df1b9840493b43c...
+      /media/osint/512 GB/ROMS/FBNEO/fireshrk.zip (541,849 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/fireshrk.zip (541,849 bytes)
+
+  Group 341 — Hash: 8e0dc4048f9f7db6...
+    ★ /media/osint/512 GB/ROMS/FBNEO/airattck.zip (1,039,041 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/airattck.zip (1,039,041 bytes)
+
+  Group 342 — Hash: 8f8f78eaade6d003...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945.zip (5,455,851 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945.zip (5,455,851 bytes)
+
+  Group 343 — Hash: 91f479b6c035a088...
+    ★ /media/osint/512 GB/ROMS/FBNEO/avengers.zip (358,507 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/avengers.zip (358,507 bytes)
+
+  Group 344 — Hash: 934a64cb81871d27...
+    ★ /media/osint/512 GB/ROMS/CPS1/sf2ce.zip (3,584,791 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sf2ce.zip (3,584,791 bytes)
+
+  Group 345 — Hash: 98ae51220e230602...
+    ★ /media/osint/512 GB/ROMS/FBNEO/nitrobal.zip (4,410,688 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/nitrobal.zip (4,410,688 bytes)
+
+  Group 346 — Hash: 99952a6f2ee58755...
+    ★ /media/osint/512 GB/ROMS/FBNEO/wrofaero.zip (1,415,393 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/wrofaero.zip (1,415,393 bytes)
+
+  Group 347 — Hash: 9a8c6f67c719e5b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/aerofgt.zip (2,083,061 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/aerofgt.zip (2,083,061 bytes)
+
+  Group 348 — Hash: 9b3006e03869a6b5...
+    ★ /media/osint/512 GB/ROMS/CPS2/batcir.zip (11,310,224 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/batcir.zip (11,310,224 bytes)
+
+  Group 349 — Hash: a021613297431637...
+    ★ /media/osint/512 GB/ROMS/CPS2/19xx.zip (7,838,697 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/19xx.zip (7,838,697 bytes)
+
+  Group 350 — Hash: a0bfe7de019f3f31...
+      /media/osint/512 GB/ROMS/FBNEO/twincobr.zip (387,946 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twincobr.zip (387,946 bytes)
+
+  Group 351 — Hash: a148f6f84aad7e27...
+      /media/osint/512 GB/ROMS/FBNEO/outzone.zip (952,246 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/outzone.zip (952,246 bytes)
+
+  Group 352 — Hash: a38037b46e03c058...
+    ★ /media/osint/512 GB/ROMS/CPS2/spf2t.zip (5,243,337 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/spf2t.zip (5,243,337 bytes)
+
+  Group 353 — Hash: a387c823c3ed1aa8...
+    ★ /media/osint/512 GB/ROMS/FBNEO/battroad.zip (70,832 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battroad.zip (70,832 bytes)
+
+  Group 354 — Hash: a4b7186e3d74692f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mtwins.zip (1,435,432 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mtwins.zip (1,435,432 bytes)
+
+  Group 355 — Hash: a65113372703bd38...
+    ★ /media/osint/512 GB/ROMS/FBNEO/kingdmgp.zip (2,596,652 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/kingdmgp.zip (2,596,652 bytes)
+
+  Group 356 — Hash: a6d57d9e432947b0...
+    ★ /media/osint/512 GB/ROMS/FBNEO/samuraia.zip (2,810,207 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/samuraia.zip (2,810,207 bytes)
+
+  Group 357 — Hash: a77472dd5fb86038...
+      /media/osint/512 GB/ROMS/FBNEO/dogyuun.zip (2,892,442 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/dogyuun.zip (2,892,442 bytes)
+
+  Group 358 — Hash: a7cc8894488ee126...
+    ★ /media/osint/512 GB/ROMS/CPS1/ffight.zip (1,429,616 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ffight.zip (1,429,616 bytes)
+
+  Group 359 — Hash: a8a5ec7cb0e89293...
+    ★ /media/osint/512 GB/ROMS/CPS2/hsf2.zip (20,976,954 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/hsf2.zip (20,976,954 bytes)
+
+  Group 360 — Hash: a8b22e7718547917...
+    ★ /media/osint/512 GB/ROMS/CPS1/willow.zip (1,773,778 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/willow.zip (1,773,778 bytes)
+
+  Group 361 — Hash: ac0da36b367ee0ab...
+    ★ /media/osint/512 GB/ROMS/CPS1/ghouls.zip (1,608,233 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ghouls.zip (1,608,233 bytes)
+
+  Group 362 — Hash: af16ed2d723f65fd...
+    ★ /media/osint/512 GB/ROMS/GG/RoboCop versus The Terminator (USA, Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/GG/Terminator, The (USA, Europe).gg (262,144 bytes)
+
+  Group 363 — Hash: b3ab2567676f1b63...
+    ★ /media/osint/512 GB/ROMS/FBNEO/dyger.zip (249,852 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/dyger.zip (249,852 bytes)
+
+  Group 364 — Hash: b4809b424b7fd8c3...
+    ★ /media/osint/512 GB/ROMS/CPS2/mmatrix.zip (19,102,430 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mmatrix.zip (19,102,430 bytes)
+
+  Group 365 — Hash: b7e82a760b017ee1...
+    ★ /media/osint/512 GB/ROMS/CPS2/sgemf.zip (16,426,315 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/sgemf.zip (16,426,315 bytes)
+
+  Group 366 — Hash: b983ab692c08c075...
+      /media/osint/512 GB/ROMS/FBNEO/esprade.zip (14,414,769 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/esprade.zip (14,414,769 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/esprade.zip (14,414,769 bytes)
+
+  Group 367 — Hash: ba945a5f16371a61...
+    ★ /media/osint/512 GB/ROMS/FBNEO/commando.zip (135,332 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/commando.zip (135,332 bytes)
+
+  Group 368 — Hash: bb55aac502b5ab78...
+    ★ /media/osint/512 GB/ROMS/FBNEO/hotdogst.zip (1,501,013 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/hotdogst.zip (1,501,013 bytes)
+
+  Group 369 — Hash: c28b9bc307ce3903...
+      /media/osint/512 GB/ROMS/FBNEO/espgal.zip (18,191,161 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/espgal.zip (18,191,161 bytes)
+
+  Group 370 — Hash: c2d8d46cff127cf4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/suprglob.zip (18,868 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/suprglob.zip (18,868 bytes)
+
+  Group 371 — Hash: c4d06fed24cde56e...
+    ★ /media/osint/512 GB/ROMS/CPS2/ringdest.zip (13,008,033 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/ringdest.zip (13,008,033 bytes)
+
+  Group 372 — Hash: c59ad2e4b620b218...
+    ★ /media/osint/512 GB/ROMS/CPS1/nemo.zip (1,340,367 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/nemo.zip (1,340,367 bytes)
+
+  Group 373 — Hash: c5c05a7813cd44d2...
+    ★ /media/osint/512 GB/ROMS/CPS1/varth.zip (1,544,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/varth.zip (1,544,886 bytes)
+
+  Group 374 — Hash: c7f138f16ddb8c8b...
+    ★ /media/osint/512 GB/ROMS/MSX/King's Valley II - The Seal of El Giza (Japan).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Ouke no Tani - El Giza no Fuuin (Japan).rom (131,072 bytes)
+
+  Group 375 — Hash: c85e96362722c3a5...
+    ★ /media/osint/512 GB/ROMS/CPS1/1941.zip (1,420,289 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/1941.zip (1,420,289 bytes)
+
+  Group 376 — Hash: c9f6188cf6e46143...
+    ★ /media/osint/512 GB/ROMS/FBNEO/gunfront.zip (2,339,248 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gunfront.zip (2,339,248 bytes)
+
+  Group 377 — Hash: cbfe0dd4a6cec897...
+      /media/osint/512 GB/ROMS/FBNEO/batsugun.zip (2,409,980 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/batsugun.zip (2,409,980 bytes)
+
+  Group 378 — Hash: cc9b00ae76b038fb...
+      /media/osint/512 GB/ROMS/FBNEO/ddonpach.zip (7,873,158 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/ddonpach.zip (7,873,158 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/ddonpach.zip (7,873,158 bytes)
+
+  Group 379 — Hash: cca4d3f692848744...
+    ★ /media/osint/512 GB/ROMS/PS/Ridge Racer 1.PBP (385,052,208 bytes)
+      /media/osint/512 GB/ROMS/PS/Ridge Racer 4.PBP (385,052,208 bytes)
+
+  Group 380 — Hash: d16fff4a59ce26b5...
+    ★ /media/osint/512 GB/ROMS/MSX/Metal Gear (Europe).rom (131,072 bytes)
+      /media/osint/512 GB/ROMS/MSX/Metal Gear (Japan).rom (131,072 bytes)
+
+  Group 381 — Hash: d3700524b1cedf1c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/s1945ii.zip (18,307,306 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/s1945ii.zip (18,307,306 bytes)
+
+  Group 382 — Hash: d6afbe9d67ba1697...
+    ★ /media/osint/512 GB/ROMS/FBNEO/sandscrp.zip (924,722 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/sandscrp.zip (924,722 bytes)
+
+  Group 383 — Hash: d7a48b160e5dc17c...
+    ★ /media/osint/512 GB/ROMS/FBNEO/truxton.zip (578,285 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/truxton.zip (578,285 bytes)
+
+  Group 384 — Hash: d8d2700135be578f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/searchar.zip (1,573,331 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/searchar.zip (1,573,331 bytes)
+
+  Group 385 — Hash: d959b9e3b1dced95...
+    ★ /media/osint/512 GB/ROMS/CPS1/punisher.zip (4,042,628 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/punisher.zip (4,042,628 bytes)
+
+  Group 386 — Hash: e10d5db73f2fc82d...
+    ★ /media/osint/512 GB/ROMS/CPS1/pang3.zip (1,536,927 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/pang3.zip (1,536,927 bytes)
+
+  Group 387 — Hash: e3c5f6e9e85032d4...
+    ★ /media/osint/512 GB/ROMS/FBNEO/galmedes.zip (597,320 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/galmedes.zip (597,320 bytes)
+
+  Group 388 — Hash: e6ad897e4dbb8a5f...
+    ★ /media/osint/512 GB/ROMS/CPS1/mercs.zip (1,754,056 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/mercs.zip (1,754,056 bytes)
+
+  Group 389 — Hash: e8df4fc6d65a37bb...
+    ★ /media/osint/512 GB/ROMS/CPS2/gigawing.zip (12,637,131 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/gigawing.zip (12,637,131 bytes)
+
+  Group 390 — Hash: ec6f14074c98fa82...
+    ★ /media/osint/512 GB/ROMS/CPS2/vsav2.zip (23,419,311 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/vsav2.zip (23,419,311 bytes)
+
+  Group 391 — Hash: ef507428c116e56f...
+    ★ /media/osint/512 GB/ROMS/FBNEO/raflesia.zip (80,542 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/raflesia.zip (80,542 bytes)
+
+  Group 392 — Hash: f281737ccb848bdc...
+    ★ /media/osint/512 GB/ROMS/CPS1/dino.zip (4,116,096 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dino.zip (4,116,096 bytes)
+
+  Group 393 — Hash: f2942d0c397ab271...
+    ★ /media/osint/512 GB/ROMS/FBNEO/thunderl.zip (1,083,460 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/thunderl.zip (1,083,460 bytes)
+
+  Group 394 — Hash: f68463d8e2e91471...
+    ★ /media/osint/512 GB/ROMS/FBNEO/crshrace.zip (4,288,474 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/crshrace.zip (4,288,474 bytes)
+
+  Group 395 — Hash: f9bbc0b192e56759...
+      /media/osint/512 GB/ROMS/FBNEO/twinhawk.zip (808,376 bytes)
+    ★ /media/osint/512 GB/ROMS/CAVE/twinhawk.zip (808,376 bytes)
+
+  Group 396 — Hash: f9cfcad94d7fa8a8...
+    ★ /media/osint/512 GB/ROMS/GG/Excellent Dizzy Collection, The (Europe).gg (262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Excellent Dizzy Collection, The (USA, Europe) (En,Fr,De,Es,It) (Proto).sms (262,144 bytes)
+
+  Group 397 — Hash: fcf711ef67e3eb1d...
+    ★ /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes (40,960 bytes)
+      /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes (40,960 bytes)
+
+  Group 398 — Hash: fda2bc0545ff51fb...
+    ★ /media/osint/512 GB/ROMS/CPS1/dynwar.zip (2,193,606 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/dynwar.zip (2,193,606 bytes)
+
 ── POSSIBLE DUPLICATES (similar name + same size) ──────────────
   Group 3:
     ★ /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
       /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
 
+  Group 125:
+    ★ /media/osint/512 GB/ROMS/FBNEO/battlane.zip (hash: 8918523f027e9932..., 115,818 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battlane.zip (hash: a686d10f9825962e..., 115,818 bytes)
+
+  Group 126:
+    ★ /media/osint/512 GB/ROMS/FBNEO/argus.zip (hash: 591f6f52667df180..., 160,160 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/argus.zip (hash: 3ef8f90f00e0081d..., 160,160 bytes)
+
+  Group 127:
+    ★ /media/osint/512 GB/ROMS/FBNEO/amazon.zip (hash: 8f7004a5ead20eca..., 174,463 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/amazon.zip (hash: e73f09a10316b1fe..., 174,463 bytes)
+
+  Group 128:
+    ★ /media/osint/512 GB/ROMS/GG/Championship Hockey (Europe).gg (hash: 1c832e8b75435c71..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Championship Hockey (Europe).sms (hash: 213c0a5c5ed46701..., 262,144 bytes)
+
+  Group 129:
+    ★ /media/osint/512 GB/ROMS/GG/James Bond 007 - The Duel (Europe).gg (hash: afa3bebc51d0e394..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/James Bond 007 - The Duel (Europe).sms (hash: d0f4ca1518f9be3f..., 262,144 bytes)
+
+  Group 130:
+    ★ /media/osint/512 GB/ROMS/GG/Micro Machines (Europe).gg (hash: d842c0408ef1b085..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Micro Machines (Europe).sms (hash: cfbc86deccdcd31b..., 262,144 bytes)
+
+  Group 131:
+    ★ /media/osint/512 GB/ROMS/GG/R.C. Grand Prix (USA, Europe).gg (hash: faee18f47f5ddffa..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/R.C. Grand Prix (USA, Europe).sms (hash: 936cd05892fc7c85..., 262,144 bytes)
+
+  Group 132:
+    ★ /media/osint/512 GB/ROMS/GG/Shinobi (USA, Europe).gg (hash: 51923ac63dbe5347..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Shinobi (USA, Europe).sms (hash: dac4f1dcb41193cb..., 262,144 bytes)
+
+  Group 133:
+    ★ /media/osint/512 GB/ROMS/GG/Spider-Man vs. The Kingpin (USA, Europe).gg (hash: 1af68ecadf6a44d5..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Spider-Man vs. The Kingpin (USA, Europe).sms (hash: cbc3ccef0f16d331..., 262,144 bytes)
+
+  Group 134:
+    ★ /media/osint/512 GB/ROMS/GG/Superman - The Man of Steel (Europe).gg (hash: 8d7ab8897831cd86..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Superman - The Man of Steel (Europe).sms (hash: 367566f571d178eb..., 262,144 bytes)
+
+  Group 135:
+    ★ /media/osint/512 GB/ROMS/GG/Wolfchild (Europe).gg (hash: 3a4b4a656d5bef79..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Wolfchild (Europe).sms (hash: 2229a20ba7dc939f..., 262,144 bytes)
+
+  Group 136:
+    ★ /media/osint/512 GB/ROMS/FBNEO/vfive.zip (hash: 61c51e885bce7f6b..., 1,115,598 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vfive.zip (hash: ebd348018618b55f..., 1,115,598 bytes)
+
+  Group 137:
+    ★ /media/osint/512 GB/ROMS/FBNEO/gundhara.zip (hash: 20d3b54b62bb6bca..., 5,796,051 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gundhara.zip (hash: 309c2e0702cbf811..., 5,796,051 bytes)
+
+  Group 138:
+    ★ /media/osint/512 GB/ROMS/FBNEO/agallet.zip (hash: 80982c54ab9e60dc..., 7,359,197 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/agallet.zip (hash: e14f7af98c94da60..., 7,359,197 bytes)
+
+  Group 139:
+    ★ /media/osint/512 GB/ROMS/CPS3/jojoba.zip (hash: d5522ca805f8c431..., 54,256,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/jojoba.zip (hash: f5c1fa528575283a..., 54,256,886 bytes)
+
+  Group 140:
+    ★ /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes (hash: 8baf3bd46d4c9afd..., 40,960 bytes)
+      /tmp/test_roms/NES/Super_Mario_Bros_(U).nes (hash: 55e30da6e02f3f14..., 40,960 bytes)
+      /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
+      /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
+
+  Group 262:
+    ★ /media/osint/512 GB/ROMS/FBNEO/battlane.zip (hash: 8918523f027e9932..., 115,818 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battlane.zip (hash: a686d10f9825962e..., 115,818 bytes)
+
+  Group 263:
+    ★ /media/osint/512 GB/ROMS/FBNEO/argus.zip (hash: 591f6f52667df180..., 160,160 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/argus.zip (hash: 3ef8f90f00e0081d..., 160,160 bytes)
+
+  Group 264:
+    ★ /media/osint/512 GB/ROMS/FBNEO/amazon.zip (hash: 8f7004a5ead20eca..., 174,463 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/amazon.zip (hash: e73f09a10316b1fe..., 174,463 bytes)
+
+  Group 265:
+    ★ /media/osint/512 GB/ROMS/GG/Championship Hockey (Europe).gg (hash: 1c832e8b75435c71..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Championship Hockey (Europe).sms (hash: 213c0a5c5ed46701..., 262,144 bytes)
+
+  Group 266:
+    ★ /media/osint/512 GB/ROMS/GG/James Bond 007 - The Duel (Europe).gg (hash: afa3bebc51d0e394..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/James Bond 007 - The Duel (Europe).sms (hash: d0f4ca1518f9be3f..., 262,144 bytes)
+
+  Group 267:
+    ★ /media/osint/512 GB/ROMS/GG/Micro Machines (Europe).gg (hash: d842c0408ef1b085..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Micro Machines (Europe).sms (hash: cfbc86deccdcd31b..., 262,144 bytes)
+
+  Group 268:
+    ★ /media/osint/512 GB/ROMS/GG/R.C. Grand Prix (USA, Europe).gg (hash: faee18f47f5ddffa..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/R.C. Grand Prix (USA, Europe).sms (hash: 936cd05892fc7c85..., 262,144 bytes)
+
+  Group 269:
+    ★ /media/osint/512 GB/ROMS/GG/Shinobi (USA, Europe).gg (hash: 51923ac63dbe5347..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Shinobi (USA, Europe).sms (hash: dac4f1dcb41193cb..., 262,144 bytes)
+
+  Group 270:
+    ★ /media/osint/512 GB/ROMS/GG/Spider-Man vs. The Kingpin (USA, Europe).gg (hash: 1af68ecadf6a44d5..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Spider-Man vs. The Kingpin (USA, Europe).sms (hash: cbc3ccef0f16d331..., 262,144 bytes)
+
+  Group 271:
+    ★ /media/osint/512 GB/ROMS/GG/Superman - The Man of Steel (Europe).gg (hash: 8d7ab8897831cd86..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Superman - The Man of Steel (Europe).sms (hash: 367566f571d178eb..., 262,144 bytes)
+
+  Group 272:
+    ★ /media/osint/512 GB/ROMS/GG/Wolfchild (Europe).gg (hash: 3a4b4a656d5bef79..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Wolfchild (Europe).sms (hash: 2229a20ba7dc939f..., 262,144 bytes)
+
+  Group 273:
+    ★ /media/osint/512 GB/ROMS/FBNEO/vfive.zip (hash: 61c51e885bce7f6b..., 1,115,598 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vfive.zip (hash: ebd348018618b55f..., 1,115,598 bytes)
+
+  Group 274:
+    ★ /media/osint/512 GB/ROMS/FBNEO/gundhara.zip (hash: 20d3b54b62bb6bca..., 5,796,051 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gundhara.zip (hash: 309c2e0702cbf811..., 5,796,051 bytes)
+
+  Group 275:
+    ★ /media/osint/512 GB/ROMS/FBNEO/agallet.zip (hash: 80982c54ab9e60dc..., 7,359,197 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/agallet.zip (hash: e14f7af98c94da60..., 7,359,197 bytes)
+
+  Group 276:
+    ★ /media/osint/512 GB/ROMS/CPS3/jojoba.zip (hash: d5522ca805f8c431..., 54,256,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/jojoba.zip (hash: f5c1fa528575283a..., 54,256,886 bytes)
+
+  Group 277:
+    ★ /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes (hash: 8baf3bd46d4c9afd..., 40,960 bytes)
+      /tmp/test_roms/NES/Super_Mario_Bros_(U).nes (hash: 55e30da6e02f3f14..., 40,960 bytes)
+      /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
+      /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
+
+  Group 399:
+    ★ /media/osint/512 GB/ROMS/FBNEO/battlane.zip (hash: 8918523f027e9932..., 115,818 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/battlane.zip (hash: a686d10f9825962e..., 115,818 bytes)
+
+  Group 400:
+    ★ /media/osint/512 GB/ROMS/FBNEO/argus.zip (hash: 591f6f52667df180..., 160,160 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/argus.zip (hash: 3ef8f90f00e0081d..., 160,160 bytes)
+
+  Group 401:
+    ★ /media/osint/512 GB/ROMS/FBNEO/amazon.zip (hash: 8f7004a5ead20eca..., 174,463 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/amazon.zip (hash: e73f09a10316b1fe..., 174,463 bytes)
+
+  Group 402:
+    ★ /media/osint/512 GB/ROMS/GG/Championship Hockey (Europe).gg (hash: 1c832e8b75435c71..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Championship Hockey (Europe).sms (hash: 213c0a5c5ed46701..., 262,144 bytes)
+
+  Group 403:
+    ★ /media/osint/512 GB/ROMS/GG/James Bond 007 - The Duel (Europe).gg (hash: afa3bebc51d0e394..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/James Bond 007 - The Duel (Europe).sms (hash: d0f4ca1518f9be3f..., 262,144 bytes)
+
+  Group 404:
+    ★ /media/osint/512 GB/ROMS/GG/Micro Machines (Europe).gg (hash: d842c0408ef1b085..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Micro Machines (Europe).sms (hash: cfbc86deccdcd31b..., 262,144 bytes)
+
+  Group 405:
+    ★ /media/osint/512 GB/ROMS/GG/R.C. Grand Prix (USA, Europe).gg (hash: faee18f47f5ddffa..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/R.C. Grand Prix (USA, Europe).sms (hash: 936cd05892fc7c85..., 262,144 bytes)
+
+  Group 406:
+    ★ /media/osint/512 GB/ROMS/GG/Shinobi (USA, Europe).gg (hash: 51923ac63dbe5347..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Shinobi (USA, Europe).sms (hash: dac4f1dcb41193cb..., 262,144 bytes)
+
+  Group 407:
+    ★ /media/osint/512 GB/ROMS/GG/Spider-Man vs. The Kingpin (USA, Europe).gg (hash: 1af68ecadf6a44d5..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Spider-Man vs. The Kingpin (USA, Europe).sms (hash: cbc3ccef0f16d331..., 262,144 bytes)
+
+  Group 408:
+    ★ /media/osint/512 GB/ROMS/GG/Superman - The Man of Steel (Europe).gg (hash: 8d7ab8897831cd86..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Superman - The Man of Steel (Europe).sms (hash: 367566f571d178eb..., 262,144 bytes)
+
+  Group 409:
+    ★ /media/osint/512 GB/ROMS/GG/Wolfchild (Europe).gg (hash: 3a4b4a656d5bef79..., 262,144 bytes)
+      /media/osint/512 GB/ROMS/SMS/Wolfchild (Europe).sms (hash: 2229a20ba7dc939f..., 262,144 bytes)
+
+  Group 410:
+    ★ /media/osint/512 GB/ROMS/FBNEO/vfive.zip (hash: 61c51e885bce7f6b..., 1,115,598 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/vfive.zip (hash: ebd348018618b55f..., 1,115,598 bytes)
+
+  Group 411:
+    ★ /media/osint/512 GB/ROMS/FBNEO/gundhara.zip (hash: 20d3b54b62bb6bca..., 5,796,051 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/gundhara.zip (hash: 309c2e0702cbf811..., 5,796,051 bytes)
+
+  Group 412:
+    ★ /media/osint/512 GB/ROMS/FBNEO/agallet.zip (hash: 80982c54ab9e60dc..., 7,359,197 bytes)
+      /media/osint/512 GB/ROMS/VARCADE/agallet.zip (hash: e14f7af98c94da60..., 7,359,197 bytes)
+
+  Group 413:
+    ★ /media/osint/512 GB/ROMS/CPS3/jojoba.zip (hash: d5522ca805f8c431..., 54,256,886 bytes)
+      /media/osint/512 GB/ROMS/FBNEO/jojoba.zip (hash: f5c1fa528575283a..., 54,256,886 bytes)
+
+  Group 414:
+    ★ /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes (hash: 8baf3bd46d4c9afd..., 40,960 bytes)
+      /tmp/test_roms/NES/Super_Mario_Bros_(U).nes (hash: 55e30da6e02f3f14..., 40,960 bytes)
+      /tmp/test_roms/NES/SUPER MARIO BROS (U).nes (hash: 777d8274fc75ef39..., 40,960 bytes)
+      /tmp/test_roms/NES/super mario bros (u).nes (hash: 2743b337613a352c..., 40,960 bytes)
+
 ── FILES NOT MATCHING NAMING CONVENTIONS ───────────────────────
+  • /media/osint/512 GB/ROMS/NES/Japan/'89 Dennou Kyuusei Uranai (J) [!].nes
+  • /media/osint/512 GB/ROMS/PICO/PICOwesome v1.5 (apr-12-2024)/pico8/itch.io/[Strategy-Management]/'Til The Gods Devour Us [execs].zip
   • /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes
   • /tmp/test_roms/NES/___game___(USA)___[b1].nes
+
+── ERROR / CORRUPTED FILES ─────────────────────────────────────
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/agallet.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/airwolf.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/igmo.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/ikki.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/imago.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/jchan2.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/joemac.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/jojobane.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/jojoj.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/kabukiz.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/kageki.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/karatour.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/kbash2.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/kovplus.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/kovytzy.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/FBNEO/mpang.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/kf2k2tt.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/knights.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/knightsh.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslug2.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslug2h.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslug3n6zp.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslug3nd.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslug5wn.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslugx.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/mslugxplus.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/punisher.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/punisher1v2.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/punisherly.zip — Archive inspection failed: Bad or corrupted zip file
+  ⚠ [SCAN] /media/osint/512 GB/ROMS/HBMAME/wof3m.zip — Archive inspection failed: Bad or corrupted zip file
+
+── PROPOSED ACTIONS ─────────────────────────────────────────────
+  Renames:     9
+  Quarantines: 2
+  Moves:       27
+
+── PROPOSED ACTION DETAILS ─────────────────────────────────────
+  [RENAME] /tmp/test_roms/PS1/Castlevania - Symphony of the Night (U).bin → /tmp/test_roms/PS1/Castlevania Symphony of the Night (U).bin
+    Reason: Normalize filename: Castlevania - Symphony of the Night (U).bin → Castlevania Symphony of the Night (U).bin
+  [RENAME] /tmp/test_roms/Gameboy/ROM with spaces   and   stuff   (E).gb → /tmp/test_roms/Gameboy/ROM with spaces and stuff (E).gb
+    Reason: Normalize filename: ROM with spaces   and   stuff   (E).gb → ROM with spaces and stuff (E).gb
+  [RENAME] /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename:   Super  Mario  Bros  (U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/Super_Mario_Bros_(U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: Super_Mario_Bros_(U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/weird.rom.tar.nes → /tmp/test_roms/NES/Weird.Rom.Tar.nes
+    Reason: Normalize filename: weird.rom.tar.nes → Weird.Rom.Tar.nes
+  [RENAME] /tmp/test_roms/NES/SUPER MARIO BROS (U).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: SUPER MARIO BROS (U).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/super mario bros (u).nes → /tmp/test_roms/NES/Super Mario Bros (U).nes
+    Reason: Normalize filename: super mario bros (u).nes → Super Mario Bros (U).nes
+  [RENAME] /tmp/test_roms/NES/___game___(USA)___[b1].nes → /tmp/test_roms/NES/game (USA) [b1].nes
+    Reason: Normalize filename: ___game___(USA)___[b1].nes → game (USA) [b1].nes
+  [RENAME] /tmp/test_roms/GBA/Game+With+Plus+Signs (J).gba → /tmp/test_roms/GBA/Game With Plus Signs (J).gba
+    Reason: Normalize filename: Game+With+Plus+Signs (J).gba → Game With Plus Signs (J).gba
+  [QUARANTINE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen → rom_organizer_output/quarantine/Sonic the Hedgehog (U) [!]_1.gen
+    Reason: Exact duplicate of 3daf588be5a9941d...
+  [QUARANTINE] /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes → rom_organizer_output/quarantine/Super Mario Bros. (U) [!]_1.nes
+    Reason: Exact duplicate of fcf711ef67e3eb1d...
+  [MOVE] /tmp/test_roms/PS1/Final Fantasy VII (U) (Disc 1).bin → rom_organizer_output/ps1/Final Fantasy VII (U) (Disc 1).bin
+    Reason: Move to ps1 folder
+  [MOVE] /tmp/test_roms/PS1/Castlevania - Symphony of the Night (U).bin → rom_organizer_output/ps1/Castlevania - Symphony of the Night (U).bin
+    Reason: Move to ps1 folder
+  [MOVE] /tmp/test_roms/SNES/A Link to the Past (U) (V1.1) [!].sfc → rom_organizer_output/snes/A Link to the Past (U) (V1.1) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Chrono Trigger (U) [!].sfc → rom_organizer_output/snes/Chrono Trigger (U) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Zelda 3 (U).sfc → rom_organizer_output/snes/Zelda 3 (U).sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/SNES/Super Metroid (U) [!].sfc → rom_organizer_output/snes/Super Metroid (U) [!].sfc
+    Reason: Move to snes folder
+  [MOVE] /tmp/test_roms/Gameboy/Pokémon Red (U) [S].gb → rom_organizer_output/gameboy/Pokémon Red (U) [S].gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/Gameboy/Pokémon Blue (U) [S].gb → rom_organizer_output/gameboy/Pokémon Blue (U) [S].gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/Gameboy/ROM with spaces   and   stuff   (E).gb → rom_organizer_output/gameboy/ROM with spaces   and   stuff   (E).gb
+    Reason: Move to gameboy folder
+  [MOVE] /tmp/test_roms/NES/Metroid (U) [!].nes → rom_organizer_output/nes/Metroid (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/  Super  Mario  Bros  (U).nes → rom_organizer_output/nes/  Super  Mario  Bros  (U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (J) [!].nes → rom_organizer_output/nes/Super Mario Bros. (J) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super_Mario_Bros_(U).nes → rom_organizer_output/nes/Super_Mario_Bros_(U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/weird.rom.tar.nes → rom_organizer_output/nes/weird.rom.tar.nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/SUPER MARIO BROS (U).nes → rom_organizer_output/nes/SUPER MARIO BROS (U).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Ultimate Mega Collection All Stars World Championship Edition Plus Alpha (U) [!].nes → rom_organizer_output/nes/Super Ultimate Mega Collection All Stars World Championship Edition Plus Alpha (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/The Legend of Zelda (U) [!].nes → rom_organizer_output/nes/The Legend of Zelda (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/super mario bros (u).nes → rom_organizer_output/nes/super mario bros (u).nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/___game___(USA)___[b1].nes → rom_organizer_output/nes/___game___(USA)___[b1].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (U) [!].nes → rom_organizer_output/nes/Super Mario Bros. (U) [!].nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/NES/Super Mario Bros. (U) [!]_1.nes → rom_organizer_output/nes/Super Mario Bros. (U) [!]_1.nes
+    Reason: Move to nes folder
+  [MOVE] /tmp/test_roms/N64/Super Mario 64 (U) [!].z64 → rom_organizer_output/n64/Super Mario 64 (U) [!].z64
+    Reason: Move to n64 folder
+  [MOVE] /tmp/test_roms/N64/Mario Kart 64 (U) [!].z64 → rom_organizer_output/n64/Mario Kart 64 (U) [!].z64
+    Reason: Move to n64 folder
+  [MOVE] /tmp/test_roms/GBA/Game+With+Plus+Signs (J).gba → rom_organizer_output/gba/Game+With+Plus+Signs (J).gba
+    Reason: Move to gba folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (E) [!].gen → rom_organizer_output/genesis/Sonic the Hedgehog (E) [!].gen
+    Reason: Move to genesis folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!]_1.gen → rom_organizer_output/genesis/Sonic the Hedgehog (U) [!]_1.gen
+    Reason: Move to genesis folder
+  [MOVE] /tmp/test_roms/Genesis/Sonic the Hedgehog (U) [!].gen → rom_organizer_output/genesis/Sonic the Hedgehog (U) [!].gen
+    Reason: Move to genesis folder
 
 ========================================================================
   END OF REPORT

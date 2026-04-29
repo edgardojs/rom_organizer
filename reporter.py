@@ -49,6 +49,12 @@ def generate_report(db: Database, output_path: Path | None = None) -> str:
     lines.append(f"  Exact duplicate groups:        {stats['exact_duplicate_groups']}")
     lines.append(f"  Possible duplicate groups:     {stats['possible_duplicate_groups']}")
     lines.append(f"  Pending proposed actions:      {stats['pending_actions']}")
+    lines.append(f"  Identified files (DAT match):  {stats['identified_files']}")
+    lines.append(f"  Archive files inspected:       {stats['archive_files']}")
+    if stats.get("scan_errors", 0) or stats.get("hash_errors", 0):
+        lines.append("")
+        lines.append(f"  ⚠ Scan errors:                {stats.get('scan_errors', 0)}")
+        lines.append(f"  ⚠ Hash errors:                {stats.get('hash_errors', 0)}")
     lines.append("")
 
     # ── Exact duplicate groups ──────────────────────────────────────────
@@ -103,6 +109,16 @@ def generate_report(db: Database, output_path: Path | None = None) -> str:
         lines.append("── FILES NOT MATCHING NAMING CONVENTIONS ───────────────────────")
         for f in non_matching:
             lines.append(f"  • {f['path']}")
+        lines.append("")
+
+    # ── Error / corrupted files ─────────────────────────────────────────
+    error_files = db.get_error_files()
+    if error_files:
+        lines.append("── ERROR / CORRUPTED FILES ─────────────────────────────────────")
+        for f in error_files:
+            status_tag = "SCAN" if f["status"] == "scan_error" else "HASH"
+            notes = f" — {f['notes']}" if f["notes"] else ""
+            lines.append(f"  ⚠ [{status_tag}] {f['path']}{notes}")
         lines.append("")
 
     # ── Proposed actions summary ────────────────────────────────────────

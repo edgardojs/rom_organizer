@@ -285,8 +285,13 @@ def normalize_all_files(db: Database, config: Config, dry_run: bool = False) -> 
     Returns:
         A dict with 'normalized', 'unchanged', and 'errors' counts.
     """
+    from progress import ProgressBar
+
     rows = db.get_all_files()
     stats = {"normalized": 0, "unchanged": 0, "errors": 0}
+    total = len(rows)
+
+    bar = ProgressBar(total=total, label="Normalizing", unit="files")
 
     for row in rows:
         original = row["original_name"]
@@ -306,6 +311,9 @@ def normalize_all_files(db: Database, config: Config, dry_run: bool = False) -> 
             logger.exception("Error normalizing: %s", original)
             stats["errors"] += 1
 
+        bar.update(1)
+
+    bar.close()
     logger.info(
         "Normalization complete: %d changed, %d unchanged, %d errors%s",
         stats["normalized"],

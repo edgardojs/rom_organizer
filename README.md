@@ -160,6 +160,34 @@ python3 main.py --config config.json rollback --last 5
 python3 main.py --config config.json rollback --action-id 42
 ```
 
+### `review`
+
+Interactive review of scan findings. Walks through corrupted files, duplicates, and proposed actions one by one, asking for your approval before making changes.
+
+```bash
+# Preview everything (dry-run — no files are modified)
+python3 main.py --config config.json review
+
+# Actually apply approved changes
+python3 main.py --config config.json review --apply
+
+# Review only corrupted/error files
+python3 main.py --config config.json review --corrupted
+
+# Review only duplicate groups
+python3 main.py --config config.json review --duplicates
+
+# Review only proposed actions (renames, moves, quarantines)
+python3 main.py --config config.json review --actions
+```
+
+During review, you'll see each item and can choose to:
+- **Corrupted files**: `[m]ove` to corrupted folder, `[s]kip`, `[M]ove all`, `[S]kip all`, `[q]uit`
+- **Duplicates**: `[q]uarantine` non-canonical copies, `[k]eep all`, `[Q]uarantine all`, `[K]eep all`, `[s]kip`
+- **Proposed actions**: `[a]pply`, `[s]kip`, `[A]pply all`, `[S]kip all`, `[q]uit`
+
+> **Safety**: Corrupted files are **moved** to a `corrupted/` subfolder, never deleted. All actions are reversible via `rollback`.
+
 ## How It Works
 
 ### Archive Inspection
@@ -344,7 +372,9 @@ rom_organizer/
 ├── sorter.py              # Duplicate detection and file organization
 ├── database.py            # SQLite database layer (schema v2, transactions)
 ├── reporter.py            # Report generation
+├── reviewer.py            # Interactive review of findings (corrupted, dupes, actions)
 ├── config.py              # Configuration management (dataclass + JSON)
+├── progress.py            # Progress bar and folder size estimation
 ├── archiver.py            # Archive inspection (.zip and .7z)
 ├── dat_parser.py           # DAT file parser (No-Intro, Redump, MAME)
 ├── config.json            # Sample configuration file
@@ -356,6 +386,8 @@ rom_organizer/
 ├── test_hasher.py           # Tests for hashing
 ├── test_integration.py      # Integration tests (full pipeline)
 ├── test_normalizer.py       # Tests for normalization
+├── test_progress.py         # Tests for progress bar and estimation
+├── test_reviewer.py         # Tests for interactive review
 ├── test_sorter.py           # Tests for sorting/organizing
 └── README.md               # This file
 ```
