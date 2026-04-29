@@ -1,0 +1,14 @@
+# Database
+*.db
+*.db.bak
+
+# Output directory (logs, reports, quarantine, etc.)
+rom_organizer_output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
